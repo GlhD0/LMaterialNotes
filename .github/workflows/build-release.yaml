@@ -25,6 +25,12 @@ jobs:
       - name: Add the key properties
         run: echo "${{ secrets.ANDROID_KEY_PROPERTIES }}" > android/key.properties
 
+      - name: Diagnostics (temporal)
+        run: |
+          sha256sum android/localmaterialnotes_keystore.jks
+          wc -c android/localmaterialnotes_keystore.jks
+          awk -F= '{print $1"="length($2)}' android/key.properties
+
       - name: Get the dependencies
         run: flutter pub get
 
