@@ -18,7 +18,7 @@ jobs:
         uses: subosito/flutter-action@v2
         with:
           channel: 'stable'
-          flutter-version-file: pubspec.yaml
+          flutter-version: 3.44.0
       - run: dart run build_runner build
       - run: flutter gen-l10n
       - name: Analyze
@@ -34,6 +34,6 @@ jobs:
         uses: subosito/flutter-action@v2
         with:
           channel: 'stable'
-          flutter-version-file: pubspec.yaml
+          flutter-version: 3.44.0
       - name: Format
         run: dart format -l 120 --set-exit-if-changed .
