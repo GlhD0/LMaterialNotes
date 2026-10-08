@@ -1,0 +1,864 @@
+{
+  "app_name": "Material Notes",
+  "@app_name": {
+    "description": "Name of the application."
+  },
+  "app_tagline": "Notas simples, locais, em material design",
+  "@app_tagline": {
+    "description": "Tagline of the application, shown in the about popup."
+  },
+  "app_about": "{appName} é um aplicativo de anotações com base em texto, destinado à simplicidade. Abraça Material Design. Ele armazena as notas localmente e não possui nenhuma permissão de internet, então você é o único que pode acessar as notas.",
+  "@app_about": {
+    "description": "Description of the application, shown in the about popup.",
+    "placeholders": {
+      "appName": {
+        "type": "String",
+        "description": "Name of the application."
+      }
+    }
+  },
+  "error_snack_bar": "Erro:",
+  "@error_snack_bar": {
+    "description": "Prefix for the error message shown in the error snack bar, before the actual error message."
+  },
+  "error_widget_title": "Ocorreu um erro.",
+  "@error_widget_title": {
+    "description": "Message shown in the error widget shown when a widget fails to build."
+  },
+  "error_widget_description": "Por favor, reporte este problema no GitHub ou por email. Anexe uma captura de tela desta página e os logs que você pode copiar ou exportar abaixo. Por precaução, você também deve exportar as suas notas.",
+  "@error_widget_description": {
+    "description": "Message shown in the error widget shown when a widget fails to build."
+  },
+  "error_widget_disabled_secure_flag": "A configuração para sinalizar o aplicativo como seguro fica desabilitada até a próxima reinicialização para habilitar capturas de tela.",
+  "@error_widget_disabled_secure_flag": {
+    "description": "Tag shown on the error widget when the setting to flag the app as secure is enabled, but was disabled until the next restart to allow taking screenshots of the screen where the error occurred."
+  },
+  "error_widget_button_export_notes": "Exportar notas",
+  "@error_widget_button_export_notes": {
+    "description": "Title of the button to export the notes as JSON on the error widget."
+  },
+  "error_widget_button_copy_logs": "Copiar logs",
+  "@error_widget_button_copy_logs": {
+    "description": "Title of the button to copy the logs to the clipboard on the error widget."
+  },
+  "error_widget_button_export_logs": "Exportar logs",
+  "@error_widget_button_export_logs": {
+    "description": "Title of the button to export the logs in a text file on the error widget."
+  },
+  "error_widget_button_create_github_issue": "Criar issue no GitHub",
+  "@error_widget_button_create_github_issue": {
+    "description": "Title of the button to create a new GitHub issue on the error widget."
+  },
+  "error_widget_button_send_mail": "Enviar email",
+  "@error_widget_button_send_mail": {
+    "description": "Title of the button to end a bug report mail on the error widget."
+  },
+  "navigation_notes": "Notas",
+  "@navigation_notes": {
+    "description": "Title of the notes page."
+  },
+  "navigation_manage_labels_destination": "Gerenciar etiquetas",
+  "@navigation_manage_labels_destination": {
+    "description": "Title of the button in the side navigation drawer to got to the page to manage the tags."
+  },
+  "navigation_manage_labels_page": "Rótulos",
+  "@navigation_manage_labels_page": {
+    "description": "Title of the page to manage the tags."
+  },
+  "navigation_archives": "Arquivos",
+  "@navigation_archives": {
+    "description": "Title of the archives page."
+  },
+  "navigation_bin": "Lixeira",
+  "@navigation_bin": {
+    "description": "Title of the bin page."
+  },
+  "navigation_settings": "Configurações",
+  "@navigation_settings": {
+    "description": "Title of the settings page."
+  },
+  "navigation_settings_appearance": "Aparência",
+  "@navigation_settings_appearance": {
+    "description": "Title of the settings page regarding the application's appearance."
+  },
+  "navigation_settings_notes_types": "Tipos de notas",
+  "@navigation_settings_notes_types": {
+    "description": "Title of the settings page regarding the notes types."
+  },
+  "navigation_settings_notes_tiles": "Telhas de notas",
+  "@navigation_settings_notes_tiles": {
+    "description": "Title of the settings page regarding the notes tiles appearance."
+  },
+  "navigation_settings_behavior": "Comportamento",
+  "@navigation_settings_behavior": {
+    "description": "Title of the settings page regarding the application's behavior."
+  },
+  "navigation_settings_editor": "Editor",
+  "@navigation_settings_editor": {
+    "description": "Title of the settings page regarding the notes content editor."
+  },
+  "navigation_settings_labels": "Rótulos",
+  "@navigation_settings_labels": {
+    "description": "Title of the settings page regarding the tags."
+  },
+  "navigation_settings_backup": "Backup",
+  "@navigation_settings_backup": {
+    "description": "Title of the settings page regarding the backup functionality."
+  },
+  "navigation_settings_security": "Segurança",
+  "@navigation_settings_security": {
+    "description": "Title of the settings page regarding the security."
+  },
+  "navigation_settings_accessibility": "Acessibilidade",
+  "@navigation_settings_accessibility": {
+    "description": "Title of the settings page regarding the accessibility."
+  },
+  "navigation_settings_help": "Ajuda",
+  "@navigation_settings_help": {
+    "description": "Title of the settings page to receive help."
+  },
+  "navigation_settings_about": "Sobre",
+  "@navigation_settings_about": {
+    "description": "Title of the settings page regarding the information about the application."
+  },
+  "button_sort_title": "Título",
+  "@button_sort_title": {
+    "description": "Text of the button to sort the notes list by title."
+  },
+  "button_sort_ascending": "Crescente",
+  "@button_sort_ascending": {
+    "description": "Text of the button to sort the notes list in ascending order."
+  },
+  "settings_page_appearance": "Aparência",
+  "@settings_page_appearance": {
+    "description": "Title of the settings page regarding the application's appearance."
+  },
+  "settings_page_appearance_description": "Idioma, temas, fontes",
+  "@settings_page_appearance_description": {
+    "description": "Description of the appearance settings page."
+  },
+  "settings_language": "Idioma",
+  "@settings_language": {
+    "description": "Title of the language setting tile."
+  },
+  "settings_language_contribute": "Contribuir",
+  "@settings_language_contribute": {
+    "description": "Button to contribute to the localizations, shown on the language setting tile."
+  },
+  "settings_appearance_section_theming": "Temas",
+  "@settings_appearance_section_theming": {
+    "description": "Title of the section regarding the theming under the appearance settings."
+  },
+  "settings_theme": "Tema",
+  "@settings_theme": {
+    "description": "Title of the theming setting tile."
+  },
+  "settings_theme_system": "Sistema",
+  "@settings_theme_system": {
+    "description": "Theming setting to use the theme of the system."
+  },
+  "settings_theme_light": "Claro",
+  "@settings_theme_light": {
+    "description": "Theming setting to use the light theme."
+  },
+  "settings_theme_dark": "Escuro",
+  "@settings_theme_dark": {
+    "description": "Theming setting to use the dark theme."
+  },
+  "settings_dynamic_theming": "Tema dinâmico",
+  "@settings_dynamic_theming": {
+    "description": "Title of the dynamic theming setting tile (to use colors generated from the system)."
+  },
+  "settings_dynamic_theming_description": "Gerar cores a partir do sistema",
+  "@settings_dynamic_theming_description": {
+    "description": "Description of the dynamic theming setting tile."
+  },
+  "settings_black_theming": "Tema preto",
+  "@settings_black_theming": {
+    "description": "Title of the black theming setting tile (to use a black background in dark mode)."
+  },
+  "settings_black_theming_description": "Use um fundo preto no modo escuro",
+  "@settings_black_theming_description": {
+    "description": "Description of the black theming setting tile."
+  },
+  "settings_appearance_section_fonts": "Fontes",
+  "@settings_appearance_section_fonts": {
+    "description": "Title of the section regarding the theming under the appearance settings."
+  },
+  "settings_app_font": "Fonte do aplicativo",
+  "@settings_app_font": {
+    "description": "Title of the setting tile to choose the font of the app."
+  },
+  "settings_app_font_description": "Fonte usada para todos os textos no aplicativo, exceto no editor de notas",
+  "@settings_app_font_description": {
+    "description": "Description of the setting tile to choose the font of the app."
+  },
+  "settings_editor_font": "Fonte do editor",
+  "@settings_editor_font": {
+    "description": "Title of the setting tile to choose the font of the notes."
+  },
+  "settings_editor_font_description": "Fonte usada somente para o texto no editor de notas",
+  "@settings_editor_font_description": {
+    "description": "Description of the setting tile to choose the font of the app."
+  },
+  "settings_page_notes_tiles": "Telhas de notas",
+  "@settings_page_notes_tiles": {
+    "description": "Title of the settings page regarding the notes tiles."
+  },
+  "settings_page_notes_tiles_description": "Aparência, conteúdo",
+  "@settings_page_notes_tiles_description": {
+    "description": "Description of the notes tiles settings page."
+  },
+  "settings_page_notes_tiles_appearance_section": "Aparência",
+  "@settings_page_notes_tiles_appearance_section": {
+    "description": "Title of the section regarding the appearance under the notes tiles settings."
+  },
+  "settings_page_notes_tiles_content_section": "Conteúdo",
+  "@settings_page_notes_tiles_content_section": {
+    "description": "Title of the section regarding the content under the notes tiles settings."
+  },
+  "settings_show_tiles_background": "Plano de Fundo",
+  "@settings_show_tiles_background": {
+    "description": "Title of the setting tile to show the background of the notes tiles."
+  },
+  "settings_show_tiles_background_description": "Mostrar o fundo dos blocos de notas",
+  "@settings_show_tiles_background_description": {
+    "description": "Description of the setting tile to show the background of the notes tiles."
+  },
+  "settings_show_separators": "Separadores",
+  "@settings_show_separators": {
+    "description": "Title of the setting tile to show the separators between the notes tiles."
+  },
+  "settings_show_separators_description": "Mostrar um separador entre os blocos de notas",
+  "@settings_show_separators_description": {
+    "description": "Description of the setting tile to show the separators between the notes tiles."
+  },
+  "settings_show_note_type_icon": "Exibir ícone de tipo",
+  "@settings_show_note_type_icon": {
+    "description": "Title of the setting tile to show the icon of the type of the note."
+  },
+  "settings_show_note_type_icon_description": "Exibir o ícone do tipo da nota",
+  "@settings_show_note_type_icon_description": {
+    "description": "Description of the setting tile to show the icon of the type of the note."
+  },
+  "settings_show_titles_only": "Títulos apenas",
+  "@settings_show_titles_only": {
+    "description": "Title of the setting tile to only show the titles of the notes in the notes tiles."
+  },
+  "settings_show_titles_only_description": "Mostrar apenas os títulos das notas",
+  "@settings_show_titles_only_description": {
+    "description": "Description of the setting tile to only show the titles of the notes in the notes tiles."
+  },
+  "settings_show_titles_only_disable_in_search_view": "Desabilitar títulos somente na tela de pesquisa",
+  "@settings_show_titles_only_disable_in_search_view": {
+    "description": "Title of the setting tile to disable only showing the titles of the notes in the search view."
+  },
+  "settings_show_titles_only_disable_in_search_view_description": "Desativar a opção de mostrar apenas os títulos na exibição de pesquisa",
+  "@settings_show_titles_only_disable_in_search_view_description": {
+    "description": "Description of the setting tile to disable only showing the titles of the notes in the search view."
+  },
+  "settings_content_preview_max_lines": "Máximo de linhas de visualização",
+  "@settings_content_preview_max_lines": {
+    "description": "Title of the setting tile to choose the maximum number of content preview lines to show."
+  },
+  "settings_content_preview_max_lines_description": "Número máximo de linhas da visualização do conteúdo a ser exibido",
+  "@settings_content_preview_max_lines_description": {
+    "description": "Description of the setting tile to choose the maximum number of content preview lines to show."
+  },
+  "settings_behavior": "Comportamento",
+  "@settings_behavior": {
+    "description": "Title of the settings page regarding the application's behavior."
+  },
+  "settings_behavior_description": "Confirmações, ações de deslizar fazem",
+  "@settings_behavior_description": {
+    "description": "Description of the behavior settings page."
+  },
+  "settings_behavior_application": "Aplicativo",
+  "@settings_behavior_application": {
+    "description": "Title of the sub-section regarding the application under the behavior settings."
+  },
+  "settings_confirmations": "Diálogo de confirmação",
+  "@settings_confirmations": {
+    "description": "Title of the setting tile to choose when to show the confirmation dialog when performing an action on a note."
+  },
+  "settings_confirmations_description": "Quando mostrar um diálogo de confirmação ao executar uma ação em uma nota",
+  "@settings_confirmations_description": {
+    "description": "Description of the setting tile to choose when to show the confirmation dialog when performing an action on a note."
+  },
+  "settings_confirmations_title_none": "Nunca",
+  "@settings_confirmations_title_none": {
+    "description": "Value of the setting to never show a confirmation dialog when performing an action on a note."
+  },
+  "settings_confirmations_title_irreversible": "Apenas ações irreversíveis",
+  "@settings_confirmations_title_irreversible": {
+    "description": "Value of the setting to only show a confirmation dialog when performing an action on a note if it is irreversible."
+  },
+  "settings_confirmations_title_all": "Sempre",
+  "@settings_confirmations_title_all": {
+    "description": "Value of the setting to always show a confirmation dialog when performing an action on a note."
+  },
+  "settings_auto_remove_from_bin_title": "Remover automaticamente da lixeira",
+  "@settings_auto_remove_from_bin_title": {
+    "description": "Title of the setting tile to automatically remove notes from the bin after a certain delay."
+  },
+  "settings_auto_remove_from_bin_description": "Remova automaticamente as notas da lixeira",
+  "@settings_auto_remove_from_bin_description": {
+    "description": "Description of the setting tile to automatically remove notes from the bin after a certain delay."
+  },
+  "settings_behavior_swipe_actions": "Ações de deslizar",
+  "@settings_behavior_swipe_actions": {
+    "description": "Title of the section regarding the swipe actions on the notes tiles under the behavior settings."
+  },
+  "settings_behavior_swipe_actions_archives": "Ações de deslizamento (arquivos)",
+  "@settings_behavior_swipe_actions_archives": {
+    "description": "Title of the section regarding the swipe actions on the notes tiles in the archives under the behavior settings."
+  },
+  "settings_behavior_swipe_actions_bin": "Ações de deslizamento (lixeira)",
+  "@settings_behavior_swipe_actions_bin": {
+    "description": "Title of the section regarding the swipe actions on the notes tiles in the bin under the behavior settings."
+  },
+  "settings_swipe_action_right": "Ação de deslizar para a direita",
+  "@settings_swipe_action_right": {
+    "description": "Title of the setting tile to choose which action to trigger when a right swapping a note tile."
+  },
+  "settings_swipe_action_right_description": "Ação a ser executada quando deslizar para a direita num bloco de nota",
+  "@settings_swipe_action_right_description": {
+    "description": "Description of the setting tile to choose which action to trigger when a right swipe is performed on a note tile."
+  },
+  "settings_bin_swipe_action_right_description": "Ação a ser acionada quando um deslize para a direita é realizado em um bloco de notas na lixeira",
+  "@settings_bin_swipe_action_right_description": {
+    "description": "Description of the setting tile to choose which action to trigger when a right swipe is performed on a note tile in the bin."
+  },
+  "settings_swipe_action_left": "Ação de deslizar para a esquerda",
+  "@settings_swipe_action_left": {
+    "description": "Title of the setting tile to choose which action to trigger when a left swipe is performed on a note tile."
+  },
+  "settings_swipe_action_left_description": "Ação a ser executada quando deslizar para a esquerda num bloco de nota",
+  "@settings_swipe_action_left_description": {
+    "description": "Description of the setting tile to choose which action to trigger when a left swipe is performed on a note tile."
+  },
+  "settings_bin_swipe_action_left_description": "Ação a ser acionada quando um deslize para a esquerda é realizado em um bloco de notas na lixeira",
+  "@settings_bin_swipe_action_left_description": {
+    "description": "Description of the setting tile to choose which action to trigger when a left swipe is performed on a note tile in the bin."
+  },
+  "settings_page_notes_types": "Tipos de notas",
+  "@settings_page_notes_types": {
+    "description": "Title of the settings page regarding the notes types."
+  },
+  "settings_page_notes_types_description": "Tipos de uso, texto rico",
+  "@settings_page_notes_types_description": {
+    "description": "Description of the settings page regarding the notes types."
+  },
+  "settings_section_types_to_use": "Tipos de uso",
+  "@settings_section_types_to_use": {
+    "description": "Title of the settings section regarding the notes types to use."
+  },
+  "settings_available_notes_types": "Tipos de notas disponíveis",
+  "@settings_available_notes_types": {
+    "description": "Title of the setting tile to choose the available notes types."
+  },
+  "settings_available_notes_types_description": "A lista de tipos de notas que podem ser criadas com o botão “Adicionar” na página de notas. Ao remover um tipo, as notas já existentes com esse tipo não são excluídas e ainda podem ser usadas normalmente",
+  "@settings_available_notes_types_description": {
+    "description": "Description of the setting tile to choose the available notes types."
+  },
+  "settings_available_default_share_type": "Tipo de compartilhamento padrão",
+  "@settings_available_default_share_type": {
+    "description": "Title of the setting tile to choose the default note type to use when creating a note from a share action."
+  },
+  "settings_available_default_share_type_description": "O tipo de nota padrão a ser usado ao criar uma nota a partir de uma ação de compartilhamento. Pode ser um tipo que não esteja disponível no botão “Adicionar”",
+  "@settings_available_default_share_type_description": {
+    "description": "Description of the setting tile to choose the default note type to use when creating a note from a share action."
+  },
+  "settings_editor": "Editor",
+  "@settings_editor": {
+    "description": "Title of the settings page regarding the notes content editor."
+  },
+  "settings_editor_description": "Comportamento",
+  "@settings_editor_description": {
+    "description": "Description of the editor settings page."
+  },
+  "settings_editor_behavior": "Comportamento",
+  "@settings_editor_behavior": {
+    "description": "Title of the settings section regarding the behavior of the editor"
+  },
+  "settings_show_editor_mode_button": "Botão modo editor",
+  "@settings_show_editor_mode_button": {
+    "description": "Title of the setting tile to enable the button to toggle between editing mode and reading mode in the editor."
+  },
+  "settings_show_editor_mode_button_description": "Habilite o botão para alternar o editor entre o modo de edição e o modo de leitura",
+  "@settings_show_editor_mode_button_description": {
+    "description": "Description of the setting tile to enable the button to toggle between editing mode and reading mode in the editor."
+  },
+  "settings_open_editor_reading_mode": "Abrir no modo de leitura",
+  "@settings_open_editor_reading_mode": {
+    "description": "Title of the setting tile to enable opening the editor in reading mode by default."
+  },
+  "settings_open_editor_reading_mode_description": "Abrir o editor no modo leitura por padrão",
+  "@settings_open_editor_reading_mode_description": {
+    "description": "Description of the setting tile to enable opening the editor in reading mode by default."
+  },
+  "settings_focus_title_on_new_note": "Focar no título",
+  "@settings_focus_title_on_new_note": {
+    "description": "Title of the setting tile to enable focusing the title when creating a new note by default."
+  },
+  "settings_focus_title_on_new_note_description": "Focar no título em vez do conteúdo ao criar uma nota",
+  "@settings_focus_title_on_new_note_description": {
+    "description": "Description of the setting tile to enable focusing the title when creating a new note by default."
+  },
+  "settings_editor_appearance": "Aparência",
+  "@settings_editor_appearance": {
+    "description": "Title of the settings section regarding the appearance of the editor"
+  },
+  "settings_toolbar_style_title": "Estilo da barra de ferramentas",
+  "@settings_toolbar_style_title": {
+    "description": "Title of the setting tile to choose the toolbar style."
+  },
+  "settings_toolbar_style_description": "O estilo da barra de ferramentas do editor de texto rico",
+  "@settings_toolbar_style_description": {
+    "description": "Description of the setting tile to choose the toolbar style."
+  },
+  "settings_use_paragraph_spacing": "Espaçamento dos parágrafos",
+  "@settings_use_paragraph_spacing": {
+    "description": "Title of the setting tile to enable the spacing between paragraphs in the notes content."
+  },
+  "settings_use_paragraph_spacing_description": "Usar espaçamento entre parágrafos",
+  "@settings_use_paragraph_spacing_description": {
+    "description": "Description of the setting tile to enable the spacing between paragraphs in the notes content."
+  },
+  "settings_labels": "Rótulos",
+  "@settings_labels": {
+    "description": "Title of the settings page regarding the tags functionality."
+  },
+  "settings_labels_description": "Habilitar, aparência",
+  "@settings_labels_description": {
+    "description": "Description of the tags settings page."
+  },
+  "settings_enable_labels": "Habilitar",
+  "@settings_enable_labels": {
+    "description": "Title of the setting tile to enable the tags."
+  },
+  "settings_enable_labels_description": "Permitir categorizar as notas com rótulos (a desativação não exclui os rótulos nem os remove das notas, apenas os oculta)",
+  "@settings_enable_labels_description": {
+    "description": "Description of the setting tile to enable the tags."
+  },
+  "settings_labels_appearance": "Aparência",
+  "@settings_labels_appearance": {
+    "description": "Title of the settings section regarding the appearance of the tags."
+  },
+  "settings_show_labels_note_tile": "Exibir rótulos no bloco de notas",
+  "@settings_show_labels_note_tile": {
+    "description": "Title of the setting tile to show the tags on the notes tiles."
+  },
+  "settings_show_labels_note_tile_description": "Exibir a lista de rótulos dos blocos de notas",
+  "@settings_show_labels_note_tile_description": {
+    "description": "Description of the setting tile to show the tags on the notes tiles."
+  },
+  "settings_show_labels_editor": "Exibir rótulos no editor",
+  "@settings_show_labels_editor": {
+    "description": "Title of the setting tile to show the tags in the editor."
+  },
+  "settings_show_labels_editor_description": "Exibir a lista de rótulos na parte inferior do editor",
+  "@settings_show_labels_editor_description": {
+    "description": "Description of the setting tile to show the tags in the editor."
+  },
+  "settings_labels_section_behavior": "Comportamento",
+  "@settings_labels_section_behavior": {
+    "description": "Title of the settings section regarding the behavior of the tags."
+  },
+  "settings_labels_swipe_action_right": "Ação do deslizamento direito",
+  "@settings_labels_swipe_action_right": {
+    "description": "Title of the setting tile to choose which action to trigger when a right swapping a label tile."
+  },
+  "settings_labels_swipe_action_right_description": "Ação para acionar quando um deslizamento direito é executado na etiqueta",
+  "@settings_labels_swipe_action_right_description": {
+    "description": "Description of the setting tile to choose which action to trigger when a right swipe is performed on a label tile."
+  },
+  "settings_labels_swipe_action_left": "Ação do deslizamento esquerdo",
+  "@settings_labels_swipe_action_left": {
+    "description": "Title of the setting tile to choose which action to trigger when a left swapping a label tile."
+  },
+  "settings_labels_swipe_action_left_description": "Ação para acionar quando um toque esquerdo é executado na etiqueta",
+  "@settings_labels_swipe_action_left_description": {
+    "description": "Description of the setting tile to choose which action to trigger when a left swipe is performed on a label tile."
+  },
+  "settings_backup": "Backup",
+  "@settings_backup": {
+    "description": "Title of the settings page regarding the backup functionality."
+  },
+  "settings_backup_description": "Exportação manual e automática, criptografia, importação",
+  "@settings_backup_description": {
+    "description": "Description of the backup settings page."
+  },
+  "settings_backup_import": "Importar",
+  "@settings_backup_import": {
+    "description": "Title of the settings section regarding the import of a backup."
+  },
+  "settings_import": "Importar",
+  "@settings_import": {
+    "description": "Title of the setting tile to import a backup."
+  },
+  "settings_import_description": "Importar notas, rótulos e configurações de um arquivo JSON",
+  "@settings_import_description": {
+    "description": "Description of the setting tile to import a backup."
+  },
+  "settings_backup_manual_export": "Exportação manual",
+  "@settings_backup_manual_export": {
+    "description": "Title of the settings section regarding the manual export of the notes."
+  },
+  "settings_export_json": "Exportar como JSON",
+  "@settings_export_json": {
+    "description": "Title of the setting tile to manually export the notes as JSON."
+  },
+  "settings_export_json_description": "Exportar imediatamente todas as notas, etiquetas e configurações para um arquivo JSON que pode ser importado de volta",
+  "@settings_export_json_description": {
+    "description": "Description of the setting tile to manually export the notes as JSON."
+  },
+  "settings_export_markdown": "Exportar como Markdown",
+  "@settings_export_markdown": {
+    "description": "Title of the setting tile to manually export the notes as Markdown."
+  },
+  "settings_export_markdown_description": "Exportar imediatamente todas as notas para um arquivo em Markdown",
+  "@settings_export_markdown_description": {
+    "description": "Description of the setting tile to manually export the notes as Markdown."
+  },
+  "settings_backup_auto_export": "Exportação automática",
+  "@settings_backup_auto_export": {
+    "description": "Title of the settings section regarding the automatic export of the notes."
+  },
+  "settings_auto_export": "Exportação automática",
+  "@settings_auto_export": {
+    "description": "Title of the settings tile to enable the automatic export of the notes."
+  },
+  "settings_auto_export_description": "Exportar automaticamente todas as notas, etiquetas e configurações para um arquivo JSON que pode ser importado de volta",
+  "@settings_auto_export_description": {
+    "description": "Description of the settings tile to enable the automatic export."
+  },
+  "settings_auto_export_frequency": "Frequência",
+  "@settings_auto_export_frequency": {
+    "description": "Title of the settings tile to choose the frequency of the automatic exports."
+  },
+  "settings_auto_export_frequency_description": "Frequência da exportação automática",
+  "@settings_auto_export_frequency_description": {
+    "description": "Description of the settings tile to choose the frequency of the automatic exports of the notes."
+  },
+  "settings_auto_export_encryption": "Criptografia",
+  "@settings_auto_export_encryption": {
+    "description": "Title of the settings tile to enable the encryption of the automatic exports."
+  },
+  "settings_auto_export_encryption_description": "Criptografar o título e o conteúdo das notas com uma senha",
+  "@settings_auto_export_encryption_description": {
+    "description": "Description of the settings tile to enable the encryption of the automatic exports."
+  },
+  "settings_auto_export_directory": "Diretório",
+  "@settings_auto_export_directory": {
+    "description": "Title of the settings tile to choose the directory where to save the automatic exports."
+  },
+  "settings_auto_export_directory_description": "Diretório onde armazenar as exportações automáticas",
+  "@settings_auto_export_directory_description": {
+    "description": "Description of the settings tile to choose the directory where to save the automatic exports."
+  },
+  "settings_security": "Segurança",
+  "@settings_security": {
+    "description": "Title of the settings page regarding the security."
+  },
+  "settings_security_description": "Flag segura, bloqueio de aplicação, bloqueio de nota",
+  "@settings_security_description": {
+    "description": "Description of the settings page regarding the security."
+  },
+  "settings_security_application": "Aplicativo",
+  "@settings_security_application": {
+    "description": "Title of the sub-section regarding the application under the security settings."
+  },
+  "settings_security_application_lock": "Bloqueio do aplicativo",
+  "@settings_security_application_lock": {
+    "description": "Title of the sub-section regarding the application lock under the security settings."
+  },
+  "settings_security_note_lock": "Bloqueio de nota",
+  "@settings_security_note_lock": {
+    "description": "Title of the sub-section regarding the note lock under the security settings."
+  },
+  "settings_flag_secure": "Sinalizar o aplicativo como seguro",
+  "@settings_flag_secure": {
+    "description": "Title of the setting tile to flag the application as secure (hiding it from the recent apps and prevent screenshots from being made)."
+  },
+  "settings_flag_secure_description": "Ocultar o aplicativo dos aplicativos recentes e impedir que capturas de tela sejam feitas",
+  "@settings_flag_secure_description": {
+    "description": "Description of the setting tile to flag the application as secure (hiding it from the recent apps and prevent screenshots from being made)."
+  },
+  "settings_accessibility": "Acessibilidade",
+  "@settings_accessibility": {
+    "description": "Title of the settings page regarding the accessibility"
+  },
+  "settings_text_scaling": "Ajuste da escala do texto",
+  "@settings_text_scaling": {
+    "description": "Title of the text scale setting tile."
+  },
+  "settings_github_issues": "Relatório de bug e solicitação de recurso",
+  "@settings_github_issues": {
+    "description": "Title of the settings tile to open the GitHub issues and report a bug or request a feature."
+  },
+  "settings_github_issues_description": "Reportar um bug ou solicitar um recurso criando um issue no GitHub",
+  "@settings_github_issues_description": {
+    "description": "Description of the settings tile to open the GitHub issues and report a bug or request a feature."
+  },
+  "settings_github_discussions": "Tirar dúvidas",
+  "@settings_github_discussions": {
+    "description": "Title of the settings tile to open the GitHub discussions and ask a question."
+  },
+  "settings_github_discussions_description": "Fazer uma pergunta nas discussões do GitHub",
+  "@settings_github_discussions_description": {
+    "description": "Description of the settings tile to open the GitHub discussions and ask a question."
+  },
+  "settings_get_in_touch_description": "Entre em contacto com o desenvolvedor no e-mail {email}",
+  "@settings_get_in_touch_description": {
+    "description": "Description of the settings tile to contact the developer via mail."
+  },
+  "settings_copy_logs": "Copiar registros",
+  "@settings_copy_logs": {
+    "description": "Title of the settings tile to copy the logs of the application to the clipboard."
+  },
+  "settings_copy_logs_description": "Copie os registros do aplicativo para a área de transferência",
+  "@settings_copy_logs_description": {
+    "description": "Description of the settings tile to copy the logs of the application to the clipboard."
+  },
+  "settings_export_logs": "Exportar registros",
+  "@settings_export_logs": {
+    "description": "Title of the settings tile to export the logs of the application to a text file."
+  },
+  "settings_export_logs_description": "Exporte os registros do aplicativo para um arquivo de texto",
+  "@settings_export_logs_description": {
+    "description": "Description of the settings tile to export the logs of the application to a text file."
+  },
+  "settings_about": "Sobre",
+  "@settings_about": {
+    "description": "Title of the settings page regarding the information about the application."
+  },
+  "settings_about_application": "Aplicativo",
+  "@settings_about_application": {
+    "description": "Title of the settings section regarding the information about the application."
+  },
+  "settings_build_mode": "Modo da build",
+  "@settings_build_mode": {
+    "description": "Title of the settings tile displaying the build mode of the application."
+  },
+  "settings_build_mode_release": "Release",
+  "@settings_build_mode_release": {
+    "description": "Value of the settings tile displaying the build mode if the application is built in release mode (the mode used in the stores)."
+  },
+  "settings_build_mode_debug": "Debug",
+  "@settings_build_mode_debug": {
+    "description": "Value of the settings tile displaying the build mode if the application is built in debug mode (the mode used for development and )."
+  },
+  "settings_about_links": "Links",
+  "@settings_about_links": {
+    "description": "Title of the settings section regarding the outside links related to the application."
+  },
+  "settings_github": "GitHub",
+  "@settings_github": {
+    "description": "Title of the settings tile to open the GitHub repository of the application."
+  },
+  "settings_github_description": "Dê uma olhada no código-fonte",
+  "@settings_github_description": {
+    "description": "Description of the settings tile to open the GitHub repository of the application."
+  },
+  "settings_localizations": "Crowdin",
+  "@settings_localizations": {
+    "description": "Title of the settings tile to open the Crowdin project managing the localization of the application."
+  },
+  "settings_localizations_description": "Adicione ou melhore as traduções do aplicativo no Crowdin",
+  "@settings_localizations_description": {
+    "description": "Description of the settings tile to open the Crowdin project managing the localization of the application."
+  },
+  "settings_licence": "Licença",
+  "@settings_licence": {
+    "description": "Title of the settings tile to open the license of the application."
+  },
+  "settings_licence_description": "AGPL-3.0",
+  "@settings_licence_description": {
+    "description": "Description of the settings tile to open the license of the application."
+  },
+  "hint_title": "Título",
+  "@hint_title": {
+    "description": "Hint for the text field of the title of the notes."
+  },
+  "hint_link": "Link",
+  "@hint_link": {
+    "description": "Hint for the link text field in the dialog to add a link in the editor."
+  },
+  "dialog_export_encryption_password": "Senha",
+  "@dialog_export_encryption_password": {
+    "description": "Hint for the password text field in the dialog to configure the encryption of an automatic or manual export."
+  },
+  "tooltip_fab_add_note": "Adicionar uma anotação",
+  "@tooltip_fab_add_note": {
+    "description": "Floating action button in the notes page to add a new note."
+  },
+  "tooltip_fab_empty_bin": "Esvaziar a lixeira",
+  "@tooltip_fab_empty_bin": {
+    "description": "Floating action button in the bin to empty it."
+  },
+  "tooltip_fab_toggle_editor_mode_edit": "Alternar para o modo de edição",
+  "@tooltip_fab_toggle_editor_mode_edit": {
+    "description": "Floating action button in the notes editor to switch to editing mode."
+  },
+  "tooltip_fab_toggle_editor_mode_read": "Alternar para o modo leitura",
+  "@tooltip_fab_toggle_editor_mode_read": {
+    "description": "Floating action button in the notes editor to switch to reading mode."
+  },
+  "tooltip_layout_list": "Visualizar em lista",
+  "@tooltip_layout_list": {
+    "description": "Tooltip for the button to use the list layout in the notes list."
+  },
+  "tooltip_layout_grid": "Visualizar em grade",
+  "@tooltip_layout_grid": {
+    "description": "Tooltip for the button to use the grid layout in the notes list."
+  },
+  "tooltip_sort": "Ordenar",
+  "@tooltip_sort": {
+    "description": "Tooltip for the button to open the menu to choose the sorting method of the notes list."
+  },
+  "tooltip_search": "Pesquisar por anotações",
+  "@tooltip_search": {
+    "description": "Tooltip for the button to open the search view to search through the notes."
+  },
+  "tooltip_unselect_all": "Desmarcar tudo",
+  "@tooltip_unselect_all": {
+    "description": "Tooltip for the button to unselect all the notes while in selection mode in the notes list."
+  },
+  "tooltip_reset": "Redefinir",
+  "@tooltip_reset": {
+    "description": "Tooltip for the button to reset the value of a setting to its default value in a settings page."
+  },
+  "dialog_add_link": "Adicionar link",
+  "@dialog_add_link": {
+    "description": "Tooltip for the button to validate the dialog to add a link in the note editor."
+  },
+  "dialog_delete": "Excluir",
+  "@dialog_delete": {
+    "description": "Title of the the dialog to delete one or multiple notes (moving them to the bin), and text for the confirmation button."
+  },
+  "dialog_permanently_delete": "Excluir permanentemente",
+  "@dialog_permanently_delete": {
+    "description": "Title of the the dialog to permanently delete one or multiple notes, and text for the confirmation button."
+  },
+  "dialog_restore": "Restaurar",
+  "@dialog_restore": {
+    "description": "Title of the the dialog to restore one or multiple notes from the bin, and text for the confirmation button."
+  },
+  "dialog_empty_bin": "Esvaziar a lixeira",
+  "@dialog_empty_bin": {
+    "description": "Title of the the dialog to empty the bin, and text for the confirmation button."
+  },
+  "dialog_empty_bin_body": "Você realmente deseja esvaziar permanentemente a lixeira? Você não poderá restaurar as notas que ele contém.",
+  "@dialog_empty_bin_body": {
+    "description": "Text for the dialog to confirm emptying the bin."
+  },
+  "dialog_delete_label": "Excluir",
+  "@dialog_delete_label": {
+    "description": "Title of the the dialog to delete one or multiple tags, and text for the confirmation button."
+  },
+  "dialog_export_encryption_switch": "Criptografar a exportação JSON",
+  "@dialog_export_encryption_switch": {
+    "description": "Text for the switch to toggle the encryption of the export in the dialog to manually or automatically exporting the notes as JSON."
+  },
+  "dialog_export_encryption_description": "O título e o conteúdo das notas serão criptografados com sua senha. Deve ser gerado aleatoriamente, com exatamente 32 caracteres, forte (pelo menos 1 minúsculo, 1 maiúsculo, 1 número e 1 caractere especial) e armazenado de forma segura.",
+  "@dialog_export_encryption_description": {
+    "description": "Description for the encryption feature when the switch to toggle the encryption of the export is enabled."
+  },
+  "dialog_export_encryption_secondary_description_auto": "Esta senha será usada em todas as futuras exportações automáticas.",
+  "@dialog_export_encryption_secondary_description_auto": {
+    "description": "Secondary description for the encryption feature in the case of an automatic export."
+  },
+  "dialog_export_encryption_secondary_description_manual": "Esta senha será usada apenas para esta exportação.",
+  "@dialog_export_encryption_secondary_description_manual": {
+    "description": "Secondary description for the encryption feature in the case of a manual export."
+  },
+  "dialog_export_encryption_password_invalid": "Inválido",
+  "@dialog_export_encryption_password_invalid": {
+    "description": "Error message displayed under the text field for the encryption password if it does not meet the strength requirements."
+  },
+  "dialog_import_encryption_password_description": "Esta exportação é criptografada. Para importá-lo, você precisa fornecer a senha usada para criptografá-la.",
+  "@dialog_import_encryption_password_description": {
+    "description": "Description in the import dialog when an import is encrypted and the password is needed."
+  },
+  "dialog_import_encryption_password_error": "a descriptografia da exportação falhou. Verifique se você forneceu a mesma senha usada para criptografar a exportação.",
+  "@dialog_import_encryption_password_error": {
+    "description": "Error when the decryption of an encrypted import failed."
+  },
+  "placeholder_notes": "Sem anotações",
+  "@placeholder_notes": {
+    "description": "Placeholder on the notes page when there are no notes."
+  },
+  "placeholder_bin": "Nenhuma anotação excluída",
+  "@placeholder_bin": {
+    "description": "Placeholder on the bin page when there are no deleted notes."
+  },
+  "action_disabled": "Desabilitado",
+  "@action_disabled": {
+    "description": "Swipe action that is disabled in the settings."
+  },
+  "action_pin": "Fixar",
+  "@action_pin": {
+    "description": "Swipe or menu action to pin a note."
+  },
+  "action_unpin": "Desfixar",
+  "@action_unpin": {
+    "description": "Swipe or menu action to unpin a note."
+  },
+  "action_share": "Compartilhar",
+  "@action_share": {
+    "description": "Swipe or menu action to share a note."
+  },
+  "action_delete": "Excluir",
+  "@action_delete": {
+    "description": "Swipe or menu action to delete a note (moving it to the bin)."
+  },
+  "action_restore": "Restaurar",
+  "@action_restore": {
+    "description": "Swipe or menu action to restore a note from the bin."
+  },
+  "action_delete_permanently": "Excluir permanentemente",
+  "@action_delete_permanently": {
+    "description": "Swipe or menu action to permanently delete a note."
+  },
+  "action_about": "Sobre",
+  "@action_about": {
+    "description": "Swipe or menu action to show information about a note."
+  },
+  "about_last_edited": "Última edição",
+  "@about_last_edited": {
+    "description": "Date when the note was edited for the last time."
+  },
+  "about_created": "Criado",
+  "@about_created": {
+    "description": "Date when the note was created."
+  },
+  "about_words": "Palavras",
+  "@about_words": {
+    "description": "Number of words in the content of the note."
+  },
+  "about_characters": "Caracteres",
+  "@about_characters": {
+    "description": "Number of characters in the content of the note."
+  },
+  "about_time_at": "às",
+  "@about_time_at": {
+    "description": "Preposition shown between the date and the time in the about dialog (example: 'January 5, 2024 at 5:15 PM')."
+  },
+  "snack_bar_logs_copied": "Os registros foram copiados para sua área de transferência.",
+  "@snack_bar_logs_copied": {
+    "description": "Snack bar message shown when the logs where copied to the clipboard from the error widget."
+  },
+  "snack_bar_logs_exported": "Os registros foram exportados com sucesso.",
+  "@snack_bar_logs_exported": {
+    "description": "Snack bar message shown when the logs where successfully exported in a text file from the error widget."
+  },
+  "welcome_note_title": "Bem-vindo ao Material Notes!",
+  "@welcome_note_title": {
+    "description": "Title of the welcome note automatically created on the first run of the application."
+  },
+  "welcome_note_content": "Notas simples, locais, em material design",
+  "@welcome_note_content": {
+    "description": "Content of the welcome note automatically created on the first run of the application."
+  }
+}

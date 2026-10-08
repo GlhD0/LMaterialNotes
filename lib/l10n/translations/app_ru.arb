@@ -1,0 +1,1482 @@
+{
+  "app_name": "Material Notes",
+  "@app_name": {
+    "description": "Name of the application."
+  },
+  "app_tagline": "Простые, локальные заметки в стиле material design",
+  "@app_tagline": {
+    "description": "Tagline of the application, shown in the about popup."
+  },
+  "app_about": "{appName} – это приложение для создания простых текстовых заметок. Приложение выполнено в стиле Material Design. Оно хранит заметки локально на устройстве и работает без подключения к Интернету, поэтому только вы имеете доступ к заметкам.",
+  "@app_about": {
+    "description": "Description of the application, shown in the about popup.",
+    "placeholders": {
+      "appName": {
+        "type": "String",
+        "description": "Name of the application."
+      }
+    }
+  },
+  "error_snack_bar": "Ошибка:",
+  "@error_snack_bar": {
+    "description": "Prefix for the error message shown in the error snack bar, before the actual error message."
+  },
+  "error_widget_title": "Произошла ошибка.",
+  "@error_widget_title": {
+    "description": "Message shown in the error widget shown when a widget fails to build."
+  },
+  "error_widget_description": "Пожалуйста, сообщите об этой проблеме на GitHub или по почте. Прикрепите скриншот этой страницы и логи, которые вы можете скопировать или экспортировать ниже. В качестве меры предосторожности, вы должны экспортировать ваши заметки.",
+  "@error_widget_description": {
+    "description": "Message shown in the error widget shown when a widget fails to build."
+  },
+  "error_widget_disabled_secure_flag": "Параметр для отметки приложения как безопасного отключен до следующего перезапуска, чтобы включить снимки экрана.",
+  "@error_widget_disabled_secure_flag": {
+    "description": "Tag shown on the error widget when the setting to flag the app as secure is enabled, but was disabled until the next restart to allow taking screenshots of the screen where the error occurred."
+  },
+  "error_widget_button_export_notes": "Экспортировать заметки",
+  "@error_widget_button_export_notes": {
+    "description": "Title of the button to export the notes as JSON on the error widget."
+  },
+  "error_widget_button_copy_logs": "Копировать журналы",
+  "@error_widget_button_copy_logs": {
+    "description": "Title of the button to copy the logs to the clipboard on the error widget."
+  },
+  "error_widget_button_export_logs": "Экспорт журналов",
+  "@error_widget_button_export_logs": {
+    "description": "Title of the button to export the logs in a text file on the error widget."
+  },
+  "error_widget_button_create_github_issue": "Создать issue на GitHub",
+  "@error_widget_button_create_github_issue": {
+    "description": "Title of the button to create a new GitHub issue on the error widget."
+  },
+  "error_widget_button_send_mail": "Отправить письмо",
+  "@error_widget_button_send_mail": {
+    "description": "Title of the button to end a bug report mail on the error widget."
+  },
+  "navigation_notes": "Заметки",
+  "@navigation_notes": {
+    "description": "Title of the notes page."
+  },
+  "navigation_manage_labels_destination": "Управление тегами",
+  "@navigation_manage_labels_destination": {
+    "description": "Title of the button in the side navigation drawer to got to the page to manage the tags."
+  },
+  "navigation_manage_labels_page": "Теги",
+  "@navigation_manage_labels_page": {
+    "description": "Title of the page to manage the tags."
+  },
+  "navigation_archives": "Архив",
+  "@navigation_archives": {
+    "description": "Title of the archives page."
+  },
+  "navigation_bin": "Корзина",
+  "@navigation_bin": {
+    "description": "Title of the bin page."
+  },
+  "navigation_settings": "Настройки",
+  "@navigation_settings": {
+    "description": "Title of the settings page."
+  },
+  "navigation_settings_appearance": "Персонализация",
+  "@navigation_settings_appearance": {
+    "description": "Title of the settings page regarding the application's appearance."
+  },
+  "navigation_settings_notes_types": "Тип заметки",
+  "@navigation_settings_notes_types": {
+    "description": "Title of the settings page regarding the notes types."
+  },
+  "navigation_settings_notes_tiles": "Плитки заметок",
+  "@navigation_settings_notes_tiles": {
+    "description": "Title of the settings page regarding the notes tiles appearance."
+  },
+  "navigation_settings_behavior": "Поведение",
+  "@navigation_settings_behavior": {
+    "description": "Title of the settings page regarding the application's behavior."
+  },
+  "navigation_settings_editor": "Редактор",
+  "@navigation_settings_editor": {
+    "description": "Title of the settings page regarding the notes content editor."
+  },
+  "navigation_settings_labels": "Теги",
+  "@navigation_settings_labels": {
+    "description": "Title of the settings page regarding the tags."
+  },
+  "navigation_settings_backup": "Резервное копирование",
+  "@navigation_settings_backup": {
+    "description": "Title of the settings page regarding the backup functionality."
+  },
+  "navigation_settings_security": "Безопасность",
+  "@navigation_settings_security": {
+    "description": "Title of the settings page regarding the security."
+  },
+  "navigation_settings_accessibility": "Специальные возможности",
+  "@navigation_settings_accessibility": {
+    "description": "Title of the settings page regarding the accessibility."
+  },
+  "navigation_settings_help": "Помощь",
+  "@navigation_settings_help": {
+    "description": "Title of the settings page to receive help."
+  },
+  "navigation_settings_about": "О приложении",
+  "@navigation_settings_about": {
+    "description": "Title of the settings page regarding the information about the application."
+  },
+  "button_sort_title": "По заголовку",
+  "@button_sort_title": {
+    "description": "Text of the button to sort the notes list by title."
+  },
+  "button_sort_ascending": "По возрастанию",
+  "@button_sort_ascending": {
+    "description": "Text of the button to sort the notes list in ascending order."
+  },
+  "settings_page_appearance": "Персонализация",
+  "@settings_page_appearance": {
+    "description": "Title of the settings page regarding the application's appearance."
+  },
+  "settings_page_appearance_description": "Язык, оформление, шрифты",
+  "@settings_page_appearance_description": {
+    "description": "Description of the appearance settings page."
+  },
+  "settings_language": "Язык",
+  "@settings_language": {
+    "description": "Title of the language setting tile."
+  },
+  "settings_language_contribute": "Поддержать",
+  "@settings_language_contribute": {
+    "description": "Button to contribute to the localizations, shown on the language setting tile."
+  },
+  "settings_appearance_section_theming": "Тема оформления",
+  "@settings_appearance_section_theming": {
+    "description": "Title of the section regarding the theming under the appearance settings."
+  },
+  "settings_theme": "Тема оформления",
+  "@settings_theme": {
+    "description": "Title of the theming setting tile."
+  },
+  "settings_theme_system": "По умолчанию",
+  "@settings_theme_system": {
+    "description": "Theming setting to use the theme of the system."
+  },
+  "settings_theme_light": "Светлая",
+  "@settings_theme_light": {
+    "description": "Theming setting to use the light theme."
+  },
+  "settings_theme_dark": "Тёмная",
+  "@settings_theme_dark": {
+    "description": "Theming setting to use the dark theme."
+  },
+  "settings_dynamic_theming": "Динамические цвета",
+  "@settings_dynamic_theming": {
+    "description": "Title of the dynamic theming setting tile (to use colors generated from the system)."
+  },
+  "settings_dynamic_theming_description": "Использовать цвет, установленный в системе",
+  "@settings_dynamic_theming_description": {
+    "description": "Description of the dynamic theming setting tile."
+  },
+  "settings_black_theming": "Натуральный чёрный",
+  "@settings_black_theming": {
+    "description": "Title of the black theming setting tile (to use a black background in dark mode)."
+  },
+  "settings_black_theming_description": "Использовать чёрный фон при тёмной теме оформления",
+  "@settings_black_theming_description": {
+    "description": "Description of the black theming setting tile."
+  },
+  "settings_appearance_section_fonts": "Шрифты",
+  "@settings_appearance_section_fonts": {
+    "description": "Title of the section regarding the theming under the appearance settings."
+  },
+  "settings_app_font": "Шрифт приложения",
+  "@settings_app_font": {
+    "description": "Title of the setting tile to choose the font of the app."
+  },
+  "settings_app_font_description": "Шрифт, который будет использоваться в приложении",
+  "@settings_app_font_description": {
+    "description": "Description of the setting tile to choose the font of the app."
+  },
+  "settings_editor_font": "Шрифт редактора",
+  "@settings_editor_font": {
+    "description": "Title of the setting tile to choose the font of the notes."
+  },
+  "settings_editor_font_description": "Шрифт, который будет использоваться в редакторе",
+  "@settings_editor_font_description": {
+    "description": "Description of the setting tile to choose the font of the app."
+  },
+  "settings_page_notes_tiles": "Плитки заметок",
+  "@settings_page_notes_tiles": {
+    "description": "Title of the settings page regarding the notes tiles."
+  },
+  "settings_page_notes_tiles_description": "Внешний вид, содержимое",
+  "@settings_page_notes_tiles_description": {
+    "description": "Description of the notes tiles settings page."
+  },
+  "settings_page_notes_tiles_appearance_section": "Внешний вид",
+  "@settings_page_notes_tiles_appearance_section": {
+    "description": "Title of the section regarding the appearance under the notes tiles settings."
+  },
+  "settings_page_notes_tiles_content_section": "Содержимое",
+  "@settings_page_notes_tiles_content_section": {
+    "description": "Title of the section regarding the content under the notes tiles settings."
+  },
+  "settings_show_tiles_background": "Фон",
+  "@settings_show_tiles_background": {
+    "description": "Title of the setting tile to show the background of the notes tiles."
+  },
+  "settings_show_tiles_background_description": "Показывать фон заметок",
+  "@settings_show_tiles_background_description": {
+    "description": "Description of the setting tile to show the background of the notes tiles."
+  },
+  "settings_show_separators": "Разделители",
+  "@settings_show_separators": {
+    "description": "Title of the setting tile to show the separators between the notes tiles."
+  },
+  "settings_show_separators_description": "Показать разделитель между заметками",
+  "@settings_show_separators_description": {
+    "description": "Description of the setting tile to show the separators between the notes tiles."
+  },
+  "settings_show_note_type_icon": "Показать тип значка",
+  "@settings_show_note_type_icon": {
+    "description": "Title of the setting tile to show the icon of the type of the note."
+  },
+  "settings_show_note_type_icon_description": "Показать иконку типа заметки",
+  "@settings_show_note_type_icon_description": {
+    "description": "Description of the setting tile to show the icon of the type of the note."
+  },
+  "settings_show_titles_only": "Только заголовки",
+  "@settings_show_titles_only": {
+    "description": "Title of the setting tile to only show the titles of the notes in the notes tiles."
+  },
+  "settings_show_titles_only_description": "Показывать только заголовки заметок",
+  "@settings_show_titles_only_description": {
+    "description": "Description of the setting tile to only show the titles of the notes in the notes tiles."
+  },
+  "settings_show_titles_only_disable_in_search_view": "Отключить заголовки только в режиме поиска",
+  "@settings_show_titles_only_disable_in_search_view": {
+    "description": "Title of the setting tile to disable only showing the titles of the notes in the search view."
+  },
+  "settings_show_titles_only_disable_in_search_view_description": "Отключите опцию, чтобы показывать только заголовки во время поиска",
+  "@settings_show_titles_only_disable_in_search_view_description": {
+    "description": "Description of the setting tile to disable only showing the titles of the notes in the search view."
+  },
+  "settings_content_preview_max_lines": "Максимум строк предварительного просмотра",
+  "@settings_content_preview_max_lines": {
+    "description": "Title of the setting tile to choose the maximum number of content preview lines to show."
+  },
+  "settings_content_preview_max_lines_description": "Максимальное количество строк для отображения предварительного просмотра содержимого",
+  "@settings_content_preview_max_lines_description": {
+    "description": "Description of the setting tile to choose the maximum number of content preview lines to show."
+  },
+  "settings_behavior": "Поведение",
+  "@settings_behavior": {
+    "description": "Title of the settings page regarding the application's behavior."
+  },
+  "settings_behavior_description": "Подтверждать действия свайпом",
+  "@settings_behavior_description": {
+    "description": "Description of the behavior settings page."
+  },
+  "settings_behavior_application": "Приложение",
+  "@settings_behavior_application": {
+    "description": "Title of the sub-section regarding the application under the behavior settings."
+  },
+  "settings_confirmations": "Диалог подтверждения",
+  "@settings_confirmations": {
+    "description": "Title of the setting tile to choose when to show the confirmation dialog when performing an action on a note."
+  },
+  "settings_confirmations_description": "Когда показывать диалоговое окно подтверждения при выполнении действия над записью",
+  "@settings_confirmations_description": {
+    "description": "Description of the setting tile to choose when to show the confirmation dialog when performing an action on a note."
+  },
+  "settings_confirmations_title_none": "Никогда",
+  "@settings_confirmations_title_none": {
+    "description": "Value of the setting to never show a confirmation dialog when performing an action on a note."
+  },
+  "settings_confirmations_title_irreversible": "Только необратимые действия",
+  "@settings_confirmations_title_irreversible": {
+    "description": "Value of the setting to only show a confirmation dialog when performing an action on a note if it is irreversible."
+  },
+  "settings_confirmations_title_all": "Всегда",
+  "@settings_confirmations_title_all": {
+    "description": "Value of the setting to always show a confirmation dialog when performing an action on a note."
+  },
+  "settings_auto_remove_from_bin_title": "Авто удаление из корзины",
+  "@settings_auto_remove_from_bin_title": {
+    "description": "Title of the setting tile to automatically remove notes from the bin after a certain delay."
+  },
+  "settings_auto_remove_from_bin_description": "Авто удаление из корзины",
+  "@settings_auto_remove_from_bin_description": {
+    "description": "Description of the setting tile to automatically remove notes from the bin after a certain delay."
+  },
+  "settings_auto_remove_from_bin_value": "{delay, select, 7{Через 1 неделю} 14{Через 2 недели} 30{Через 1 месяц} 90{Через 3 месяца} 180{Через 6 месяцев} 365{Через 1 год} other{Никогда}}",
+  "@settings_auto_remove_from_bin_value": {
+    "description": "Value of the setting tile to choose after which amount of time the application/note/label locks itself after the application was moved to the background.",
+    "placeholders": {
+      "delay": {
+        "type": "String",
+        "description": "Delay in days."
+      }
+    }
+  },
+  "settings_behavior_swipe_actions": "Действия при свайпе",
+  "@settings_behavior_swipe_actions": {
+    "description": "Title of the section regarding the swipe actions on the notes tiles under the behavior settings."
+  },
+  "settings_behavior_swipe_actions_archives": "Действие свайпа (архив)",
+  "@settings_behavior_swipe_actions_archives": {
+    "description": "Title of the section regarding the swipe actions on the notes tiles in the archives under the behavior settings."
+  },
+  "settings_behavior_swipe_actions_bin": "Действия при свайпе (в корзине)",
+  "@settings_behavior_swipe_actions_bin": {
+    "description": "Title of the section regarding the swipe actions on the notes tiles in the bin under the behavior settings."
+  },
+  "settings_swipe_action_right": "Действие при свайпе вправо",
+  "@settings_swipe_action_right": {
+    "description": "Title of the setting tile to choose which action to trigger when a right swapping a note tile."
+  },
+  "settings_swipe_action_right_description": "Действие, которое будет выполняться при свайпе вправо по заметке",
+  "@settings_swipe_action_right_description": {
+    "description": "Description of the setting tile to choose which action to trigger when a right swipe is performed on a note tile."
+  },
+  "settings_bin_swipe_action_right_description": "Действие, которое будет выполняться при свайпе вправо по заметке в корзине",
+  "@settings_bin_swipe_action_right_description": {
+    "description": "Description of the setting tile to choose which action to trigger when a right swipe is performed on a note tile in the bin."
+  },
+  "settings_swipe_action_left": "Действие при свайпе влево",
+  "@settings_swipe_action_left": {
+    "description": "Title of the setting tile to choose which action to trigger when a left swipe is performed on a note tile."
+  },
+  "settings_swipe_action_left_description": "Действие, которое будет выполняться при свайпе влево по заметке",
+  "@settings_swipe_action_left_description": {
+    "description": "Description of the setting tile to choose which action to trigger when a left swipe is performed on a note tile."
+  },
+  "settings_bin_swipe_action_left_description": "Действие, которое будет выполняться при свайпе влево по заметке в корзине",
+  "@settings_bin_swipe_action_left_description": {
+    "description": "Description of the setting tile to choose which action to trigger when a left swipe is performed on a note tile in the bin."
+  },
+  "settings_page_notes_types": "Типы заметок",
+  "@settings_page_notes_types": {
+    "description": "Title of the settings page regarding the notes types."
+  },
+  "settings_page_notes_types_description": "Типы форматирования текста",
+  "@settings_page_notes_types_description": {
+    "description": "Description of the settings page regarding the notes types."
+  },
+  "settings_section_types_to_use": "Тип для использования",
+  "@settings_section_types_to_use": {
+    "description": "Title of the settings section regarding the notes types to use."
+  },
+  "settings_available_notes_types": "Доступные типы заметок",
+  "@settings_available_notes_types": {
+    "description": "Title of the setting tile to choose the available notes types."
+  },
+  "settings_available_notes_types_description": "Список типов заметок, которые можно создать с помощью кнопки «Добавить» на странице заметок. При удалении типа уже существующие заметки с этим типом не удаляются и могут быть использованы в обычном режиме",
+  "@settings_available_notes_types_description": {
+    "description": "Description of the setting tile to choose the available notes types."
+  },
+  "settings_available_default_share_type": "Общий ресурс по умолчанию",
+  "@settings_available_default_share_type": {
+    "description": "Title of the setting tile to choose the default note type to use when creating a note from a share action."
+  },
+  "settings_available_default_share_type_description": "Тип заметки по умолчанию, используемый при создании заметки из действия «Поделиться». Это может быть тип, недоступный из кнопки «Добавить»",
+  "@settings_available_default_share_type_description": {
+    "description": "Description of the setting tile to choose the default note type to use when creating a note from a share action."
+  },
+  "settings_editor": "Редактор",
+  "@settings_editor": {
+    "description": "Title of the settings page regarding the notes content editor."
+  },
+  "settings_editor_description": "Поведение",
+  "@settings_editor_description": {
+    "description": "Description of the editor settings page."
+  },
+  "settings_editor_behavior": "Поведение",
+  "@settings_editor_behavior": {
+    "description": "Title of the settings section regarding the behavior of the editor"
+  },
+  "settings_show_editor_mode_button": "Кнопка режима редактирования",
+  "@settings_show_editor_mode_button": {
+    "description": "Title of the setting tile to enable the button to toggle between editing mode and reading mode in the editor."
+  },
+  "settings_show_editor_mode_button_description": "Включите кнопку, чтобы переключить редактор между режимом редактирования и режимом чтения",
+  "@settings_show_editor_mode_button_description": {
+    "description": "Description of the setting tile to enable the button to toggle between editing mode and reading mode in the editor."
+  },
+  "settings_open_editor_reading_mode": "Открыть в режиме чтения",
+  "@settings_open_editor_reading_mode": {
+    "description": "Title of the setting tile to enable opening the editor in reading mode by default."
+  },
+  "settings_open_editor_reading_mode_description": "По умолчанию открывать редактор в режиме чтения",
+  "@settings_open_editor_reading_mode_description": {
+    "description": "Description of the setting tile to enable opening the editor in reading mode by default."
+  },
+  "settings_focus_title_on_new_note": "Фокусироваться на заголовке",
+  "@settings_focus_title_on_new_note": {
+    "description": "Title of the setting tile to enable focusing the title when creating a new note by default."
+  },
+  "settings_focus_title_on_new_note_description": "При создании новой заметки сфокусироваться на заголовок",
+  "@settings_focus_title_on_new_note_description": {
+    "description": "Description of the setting tile to enable focusing the title when creating a new note by default."
+  },
+  "settings_editor_appearance": "Персонализация",
+  "@settings_editor_appearance": {
+    "description": "Title of the settings section regarding the appearance of the editor"
+  },
+  "settings_toolbar_style_title": "Стиль панели инструментов",
+  "@settings_toolbar_style_title": {
+    "description": "Title of the setting tile to choose the toolbar style."
+  },
+  "settings_toolbar_style_description": "Стиль панели инструментов редактора форматированного текста",
+  "@settings_toolbar_style_description": {
+    "description": "Description of the setting tile to choose the toolbar style."
+  },
+  "settings_use_paragraph_spacing": "Расстояние между абзацами",
+  "@settings_use_paragraph_spacing": {
+    "description": "Title of the setting tile to enable the spacing between paragraphs in the notes content."
+  },
+  "settings_use_paragraph_spacing_description": "Применять интервал между абзацами",
+  "@settings_use_paragraph_spacing_description": {
+    "description": "Description of the setting tile to enable the spacing between paragraphs in the notes content."
+  },
+  "settings_labels": "Теги",
+  "@settings_labels": {
+    "description": "Title of the settings page regarding the tags functionality."
+  },
+  "settings_labels_description": "Включить теги, персонализация",
+  "@settings_labels_description": {
+    "description": "Description of the tags settings page."
+  },
+  "settings_enable_labels": "Включить теги",
+  "@settings_enable_labels": {
+    "description": "Title of the setting tile to enable the tags."
+  },
+  "settings_enable_labels_description": "Позволяет организовывать заметки с помощью тегов (отключение не удаляет теги, а только скрывает их)",
+  "@settings_enable_labels_description": {
+    "description": "Description of the setting tile to enable the tags."
+  },
+  "settings_labels_appearance": "Персонализация",
+  "@settings_labels_appearance": {
+    "description": "Title of the settings section regarding the appearance of the tags."
+  },
+  "settings_show_labels_note_tile": "Теги в карточке с заметкой",
+  "@settings_show_labels_note_tile": {
+    "description": "Title of the setting tile to show the tags on the notes tiles."
+  },
+  "settings_show_labels_note_tile_description": "Показывать теги в карточке с заметкой",
+  "@settings_show_labels_note_tile_description": {
+    "description": "Description of the setting tile to show the tags on the notes tiles."
+  },
+  "settings_show_labels_editor": "Показывать теги в редакторе",
+  "@settings_show_labels_editor": {
+    "description": "Title of the setting tile to show the tags in the editor."
+  },
+  "settings_show_labels_editor_description": "Показывать список тегов под редактором",
+  "@settings_show_labels_editor_description": {
+    "description": "Description of the setting tile to show the tags in the editor."
+  },
+  "settings_labels_section_behavior": "Поведение",
+  "@settings_labels_section_behavior": {
+    "description": "Title of the settings section regarding the behavior of the tags."
+  },
+  "settings_labels_swipe_action_right": "Действие при смахивании вправо",
+  "@settings_labels_swipe_action_right": {
+    "description": "Title of the setting tile to choose which action to trigger when a right swapping a label tile."
+  },
+  "settings_labels_swipe_action_right_description": "Действие, запускаемое при взмахе плитки с надписью вправо",
+  "@settings_labels_swipe_action_right_description": {
+    "description": "Description of the setting tile to choose which action to trigger when a right swipe is performed on a label tile."
+  },
+  "settings_labels_swipe_action_left": "Действие при смахивании влево",
+  "@settings_labels_swipe_action_left": {
+    "description": "Title of the setting tile to choose which action to trigger when a left swapping a label tile."
+  },
+  "settings_labels_swipe_action_left_description": "Действие, запускаемое при взмахе плитки с надписью влево",
+  "@settings_labels_swipe_action_left_description": {
+    "description": "Description of the setting tile to choose which action to trigger when a left swipe is performed on a label tile."
+  },
+  "settings_backup": "Резервное копирование",
+  "@settings_backup": {
+    "description": "Title of the settings page regarding the backup functionality."
+  },
+  "settings_backup_description": "Ручной и автоматический экспорт, шифрование, импорт",
+  "@settings_backup_description": {
+    "description": "Description of the backup settings page."
+  },
+  "settings_backup_import": "Импорт",
+  "@settings_backup_import": {
+    "description": "Title of the settings section regarding the import of a backup."
+  },
+  "settings_import": "Импорт заметок",
+  "@settings_import": {
+    "description": "Title of the setting tile to import a backup."
+  },
+  "settings_import_description": "Импорт заметок, тегов и настроек из JSON файла",
+  "@settings_import_description": {
+    "description": "Description of the setting tile to import a backup."
+  },
+  "settings_backup_manual_export": "Ручной экспорт",
+  "@settings_backup_manual_export": {
+    "description": "Title of the settings section regarding the manual export of the notes."
+  },
+  "settings_export_json": "Экспортировать в формате JSON",
+  "@settings_export_json": {
+    "description": "Title of the setting tile to manually export the notes as JSON."
+  },
+  "settings_export_json_description": "Экспортировать все заметки, теги и настройки в файл JSON, потом их можно импортировать обратно",
+  "@settings_export_json_description": {
+    "description": "Description of the setting tile to manually export the notes as JSON."
+  },
+  "settings_export_markdown": "Экспортировать в формате Markdown",
+  "@settings_export_markdown": {
+    "description": "Title of the setting tile to manually export the notes as Markdown."
+  },
+  "settings_export_markdown_description": "Экспортировать все заметки в файл Markdown",
+  "@settings_export_markdown_description": {
+    "description": "Description of the setting tile to manually export the notes as Markdown."
+  },
+  "settings_backup_auto_export": "Автоматический экспорт",
+  "@settings_backup_auto_export": {
+    "description": "Title of the settings section regarding the automatic export of the notes."
+  },
+  "settings_auto_export": "Автоматический экспорт",
+  "@settings_auto_export": {
+    "description": "Title of the settings tile to enable the automatic export of the notes."
+  },
+  "settings_auto_export_description": "Автоматический экспорт всех заметок, тегов и настроек в файл JSON, которые можно импортировать обратно",
+  "@settings_auto_export_description": {
+    "description": "Description of the settings tile to enable the automatic export."
+  },
+  "settings_auto_export_frequency": "Периодичность",
+  "@settings_auto_export_frequency": {
+    "description": "Title of the settings tile to choose the frequency of the automatic exports."
+  },
+  "settings_auto_export_frequency_value": "Раз в{frequency, select, 1{день} 7{неделю} 14{2 недели} 30{месяц} other{}}",
+  "@settings_auto_export_frequency_value": {
+    "description": "Frequency of the automatic exports.",
+    "placeholders": {
+      "frequency": {
+        "description": "Frequency in days.",
+        "type": "String"
+      }
+    }
+  },
+  "settings_auto_export_frequency_description": "Частота автоматического экспорта",
+  "@settings_auto_export_frequency_description": {
+    "description": "Description of the settings tile to choose the frequency of the automatic exports of the notes."
+  },
+  "settings_auto_export_encryption": "Шифрование",
+  "@settings_auto_export_encryption": {
+    "description": "Title of the settings tile to enable the encryption of the automatic exports."
+  },
+  "settings_auto_export_encryption_description": "Зашифровать заголовок и содержимое заметок паролем",
+  "@settings_auto_export_encryption_description": {
+    "description": "Description of the settings tile to enable the encryption of the automatic exports."
+  },
+  "settings_auto_export_directory": "Директория",
+  "@settings_auto_export_directory": {
+    "description": "Title of the settings tile to choose the directory where to save the automatic exports."
+  },
+  "settings_auto_export_directory_description": "Каталог для сохранения автоматических экспортов",
+  "@settings_auto_export_directory_description": {
+    "description": "Description of the settings tile to choose the directory where to save the automatic exports."
+  },
+  "settings_security": "Безопасность",
+  "@settings_security": {
+    "description": "Title of the settings page regarding the security."
+  },
+  "settings_security_description": "Флаг безопасности, блокировка приложения, блокировка заметки",
+  "@settings_security_description": {
+    "description": "Description of the settings page regarding the security."
+  },
+  "settings_security_application": "Приложение",
+  "@settings_security_application": {
+    "description": "Title of the sub-section regarding the application under the security settings."
+  },
+  "settings_security_application_lock": "Блокировка приложения",
+  "@settings_security_application_lock": {
+    "description": "Title of the sub-section regarding the application lock under the security settings."
+  },
+  "settings_security_note_lock": "Блокировка заметки",
+  "@settings_security_note_lock": {
+    "description": "Title of the sub-section regarding the note lock under the security settings."
+  },
+  "settings_flag_secure": "Помечать приложение как защищённое",
+  "@settings_flag_secure": {
+    "description": "Title of the setting tile to flag the application as secure (hiding it from the recent apps and prevent screenshots from being made)."
+  },
+  "settings_flag_secure_description": "Скрывать приложение из недавних приложений и предотвращать создание скриншотов",
+  "@settings_flag_secure_description": {
+    "description": "Description of the setting tile to flag the application as secure (hiding it from the recent apps and prevent screenshots from being made)."
+  },
+  "settings_application_lock_title": "Блокировать",
+  "@settings_application_lock_title": {
+    "description": "Title of the setting tile to toggle whether the application is locked."
+  },
+  "settings_application_lock_description": "Блокировка приложения и требование аутентификации устройства для разблокировки",
+  "@settings_application_lock_description": {
+    "description": "Description of the setting tile to toggle whether the application is locked."
+  },
+  "settings_application_lock_delay_title": "Задержка блокировки",
+  "@settings_application_lock_delay_title": {
+    "description": "Title of the setting tile to choose after which amount of time the application locks itself after it was moved to the background."
+  },
+  "settings_application_lock_delay_description": "Время задержки, после которого приложение блокируется при переходе в фоновый режим",
+  "@settings_application_lock_delay_description": {
+    "description": "Description of the setting tile to choose after which amount of time the application locks itself after it was moved to the background."
+  },
+  "settings_lock_delay_value": "{delay, select, 0{Моментально} 3{Через 3 секунды} 5{Через 5 секунд} 10{Через 10 секунд} 30{Через 30 секунд} 60{Через 1 минуту} 120{Через 2 минуты} 300{Через 5 минут} other{Никогда}}",
+  "@settings_lock_delay_value": {
+    "description": "Value of the setting tile to choose after which amount of time the application/note/label locks itself after the application was moved to the background.",
+    "placeholders": {
+      "delay": {
+        "type": "String",
+        "description": "Delay in seconds."
+      }
+    }
+  },
+  "settings_note_lock_title": "Блокировка заметки",
+  "@settings_note_lock_title": {
+    "description": "Title of the setting tile to toggle whether the notes can be locked."
+  },
+  "settings_note_lock_description": "Заблокировать заметку и потребовать авторизацию на устройстве для ее просмотра и редактирования",
+  "@settings_note_lock_description": {
+    "description": "Description of the setting tile to toggle whether the notes can be locked."
+  },
+  "settings_label_lock_title": "Блокировка тега",
+  "@settings_label_lock_title": {
+    "description": "Title of the setting tile to toggle whether the tags can be locked."
+  },
+  "settings_label_lock_description": "Заблокировать тег и потребовать авторизацию на устройстве для просмотра и редактирования любой заметки, содержащей его",
+  "@settings_label_lock_description": {
+    "description": "Description of the setting tile to toggle whether the tags can be locked."
+  },
+  "settings_note_lock_delay_title": "Задержка блокировки",
+  "@settings_note_lock_delay_title": {
+    "description": "Title of the setting tile to choose after which amount of time the note locks itself after the application was moved to the background."
+  },
+  "settings_note_lock_delay_description": "Задержка, после которой заметка блокируется сама, когда приложение перейдет в фоновый режим",
+  "@settings_note_lock_delay_description": {
+    "description": "Description of the setting tile to choose after which amount of time the note locks itself after the application was moved to the background."
+  },
+  "settings_accessibility": "Специальные возможности",
+  "@settings_accessibility": {
+    "description": "Title of the settings page regarding the accessibility"
+  },
+  "settings_accessibility_text_size": "Размер шрифта",
+  "@settings_accessibility_text_size": {
+    "description": "Title of the accessibility settings section regarding the text size."
+  },
+  "settings_accessibility_text_color": "Цвет текста",
+  "@settings_accessibility_text_color": {
+    "description": "Title of the accessibility settings section regarding the text color."
+  },
+  "settings_accessibility_description": "Цвет текста, размер текста",
+  "@settings_accessibility_description": {
+    "description": "Description of the accessibility settings page."
+  },
+  "settings_text_scaling": "Размер текста",
+  "@settings_text_scaling": {
+    "description": "Title of the text scale setting tile."
+  },
+  "settings_bigger_titles": "Увеличенный заголовок",
+  "@settings_bigger_titles": {
+    "description": "Title of the setting tile to use bigger titles on the notes tiles and in the editor."
+  },
+  "settings_bigger_titles_description": "Показывать увеличенные заголовки в карточке и в редакторе заметки",
+  "@settings_bigger_titles_description": {
+    "description": "Description of the setting tile to use bigger titles on the notes tiles and in the editor."
+  },
+  "settings_white_text_dark_mode": "Белый текст в тёмном режиме",
+  "@settings_white_text_dark_mode": {
+    "description": "Title of the text scale setting tile."
+  },
+  "settings_white_text_dark_mode_description": "Использовать белый цвет для текста в тёмном режиме",
+  "@settings_white_text_dark_mode_description": {
+    "description": "Description of the text scale setting tile."
+  },
+  "settings_disable_subdued_note_content_preview": "Неприглушенный предварительный просмотр",
+  "@settings_disable_subdued_note_content_preview": {
+    "description": "Title of the setting tile to disable the subdued color of the notes content preview text in the notes tiles."
+  },
+  "settings_disable_subdued_note_content_preview_description": "Не приглушать цвет текста контента заметки при предварительном просмотре",
+  "@settings_disable_subdued_note_content_preview_description": {
+    "description": "Description of the setting tile to disable the subdued color of the notes content preview text in the notes tiles."
+  },
+  "settings_help_section_contact": "Обратная связь",
+  "@settings_help_section_contact": {
+    "description": "Title of the settings section regarding how to get in contact."
+  },
+  "settings_github_issues": "Сообщить об ошибке или запросить функцию",
+  "@settings_github_issues": {
+    "description": "Title of the settings tile to open the GitHub issues and report a bug or request a feature."
+  },
+  "settings_github_issues_description": "Сообщить об ошибке или запросить функцию, создав запрос на GitHub",
+  "@settings_github_issues_description": {
+    "description": "Description of the settings tile to open the GitHub issues and report a bug or request a feature."
+  },
+  "settings_github_discussions": "Задать вопрос",
+  "@settings_github_discussions": {
+    "description": "Title of the settings tile to open the GitHub discussions and ask a question."
+  },
+  "settings_github_discussions_description": "Задайте вопрос на обсуждениях в GitHub",
+  "@settings_github_discussions_description": {
+    "description": "Description of the settings tile to open the GitHub discussions and ask a question."
+  },
+  "settings_contact_developer": "Связаться с разработчиком",
+  "@settings_contact_developer": {
+    "description": "Title of the settings tile to contact the developer via mail."
+  },
+  "settings_get_in_touch_description": "Свяжитесь с разработчиком по почте {email}",
+  "@settings_get_in_touch_description": {
+    "description": "Description of the settings tile to contact the developer via mail."
+  },
+  "settings_help": "Помощь",
+  "@settings_help": {
+    "description": "Title of the settings page to receive help."
+  },
+  "settings_help_description": "Связь, журналы",
+  "@settings_help_description": {
+    "description": "Description of the settings page to receive help."
+  },
+  "settings_help_section_logs": "Журналы",
+  "@settings_help_section_logs": {
+    "description": "Title of the settings section regarding the logs of the application."
+  },
+  "settings_copy_logs": "Скопировать журналы",
+  "@settings_copy_logs": {
+    "description": "Title of the settings tile to copy the logs of the application to the clipboard."
+  },
+  "settings_copy_logs_description": "Скопировать журналы приложения в буфер обмена",
+  "@settings_copy_logs_description": {
+    "description": "Description of the settings tile to copy the logs of the application to the clipboard."
+  },
+  "settings_export_logs": "Экспорт журналов",
+  "@settings_export_logs": {
+    "description": "Title of the settings tile to export the logs of the application to a text file."
+  },
+  "settings_export_logs_description": "Экспорт журналов приложения в текстовый файл",
+  "@settings_export_logs_description": {
+    "description": "Description of the settings tile to export the logs of the application to a text file."
+  },
+  "settings_about": "О приложении",
+  "@settings_about": {
+    "description": "Title of the settings page regarding the information about the application."
+  },
+  "settings_about_description": "Информация, ссылки, пожертвование",
+  "@settings_about_description": {
+    "description": "Description of the settings page regarding the information about the application."
+  },
+  "settings_about_application": "Приложение",
+  "@settings_about_application": {
+    "description": "Title of the settings section regarding the information about the application."
+  },
+  "settings_build_mode": "Режим сборки",
+  "@settings_build_mode": {
+    "description": "Title of the settings tile displaying the build mode of the application."
+  },
+  "settings_build_mode_release": "Release",
+  "@settings_build_mode_release": {
+    "description": "Value of the settings tile displaying the build mode if the application is built in release mode (the mode used in the stores)."
+  },
+  "settings_build_mode_debug": "Debug",
+  "@settings_build_mode_debug": {
+    "description": "Value of the settings tile displaying the build mode if the application is built in debug mode (the mode used for development and )."
+  },
+  "settings_about_links": "Ссылки",
+  "@settings_about_links": {
+    "description": "Title of the settings section regarding the outside links related to the application."
+  },
+  "settings_github": "GitHub",
+  "@settings_github": {
+    "description": "Title of the settings tile to open the GitHub repository of the application."
+  },
+  "settings_github_description": "Ознакомьтесь с исходным кодом приложения",
+  "@settings_github_description": {
+    "description": "Description of the settings tile to open the GitHub repository of the application."
+  },
+  "settings_localizations": "Crowdin",
+  "@settings_localizations": {
+    "description": "Title of the settings tile to open the Crowdin project managing the localization of the application."
+  },
+  "settings_localizations_description": "Добавляйте или улучшайте перевод в проекте Crowdin",
+  "@settings_localizations_description": {
+    "description": "Description of the settings tile to open the Crowdin project managing the localization of the application."
+  },
+  "settings_licence": "Лицензия",
+  "@settings_licence": {
+    "description": "Title of the settings tile to open the license of the application."
+  },
+  "settings_licence_description": "AGPL-3.0",
+  "@settings_licence_description": {
+    "description": "Description of the settings tile to open the license of the application."
+  },
+  "settings_about_section_donate": "Отдарить",
+  "@settings_about_section_donate": {
+    "description": "Title of the settings section to donate."
+  },
+  "settings_donate_kofi": "Ko-fi",
+  "@settings_donate_kofi": {
+    "description": "Title of the settings tile to donate via Ko-fi."
+  },
+  "settings_donate_paypal": "PayPal",
+  "@settings_donate_paypal": {
+    "description": "Title of the settings tile to donate via PayPal."
+  },
+  "hint_title": "Заголовок",
+  "@hint_title": {
+    "description": "Hint for the text field of the title of the notes."
+  },
+  "hint_content": "Заметка",
+  "@hint_content": {
+    "description": "Hint for the text field of the content of the notes."
+  },
+  "hint_link": "Ссылка",
+  "@hint_link": {
+    "description": "Hint for the link text field in the dialog to add a link in the editor."
+  },
+  "hint_label_name": "Название",
+  "@hint_label_name": {
+    "description": "Hint for the text field of the name of a tag."
+  },
+  "dialog_require_backup_title": "Выберете папку резервной копии",
+  "@dialog_require_backup_title": {
+    "description": "Title of the dialog to select a backup location."
+  },
+  "dialog_require_backup_description": "Так как ваши заметки сохранены локально на вашем устройстве, любая проблема приведёт к их потере. Удаление приложения удаляет все ваши заметки.\n\nВыбор папки для резервной копии поможет сохранить их. Например, вы можете создать папку с названием \"Material Notes резервная копия\" в уже существующей папке \"Documents\".",
+  "@dialog_require_backup_description": {
+    "description": "Description of the dialog to select a backup location."
+  },
+  "dialog_require_backup_ignore": "Игнорировать",
+  "@dialog_require_backup_ignore": {
+    "description": "Button to ignore the dialog to select a backup location."
+  },
+  "dialog_require_backup_select": "Выбрать",
+  "@dialog_require_backup_select": {
+    "description": "Button to select a backup location in the related dialog."
+  },
+  "dialog_export_encryption_password": "Пароль",
+  "@dialog_export_encryption_password": {
+    "description": "Hint for the password text field in the dialog to configure the encryption of an automatic or manual export."
+  },
+  "dialog_select_labels": "Выберите теги",
+  "@dialog_select_labels": {
+    "description": "Title of the dialog to select the tags of a note."
+  },
+  "dialog_select_labels_to_add": "Выберите теги для добавления",
+  "@dialog_select_labels_to_add": {
+    "description": "Title of the dialog to select the tags to add to the currently selected notes."
+  },
+  "tooltip_undo": "Отменить последнее действие",
+  "@tooltip_undo": {
+    "description": "Tooltip for the button to undo the last action in the editor."
+  },
+  "tooltip_redo": "Повторить последнее действие",
+  "@tooltip_redo": {
+    "description": "Tooltip for the button to redo the last action in the editor."
+  },
+  "tooltip_fab_add_note": "Добавить заметку",
+  "@tooltip_fab_add_note": {
+    "description": "Floating action button in the notes page to add a new note."
+  },
+  "tooltip_fab_add_plain_text_note": "Добавьте простую текстовую заметку",
+  "@tooltip_fab_add_plain_text_note": {
+    "description": "Floating action button in the notes page to add a new plain text note."
+  },
+  "tooltip_fab_add_markdown_note": "Добавить Markdown заметку",
+  "@tooltip_fab_add_markdown_note": {
+    "description": "Floating action button in the notes page to add a new markdown note."
+  },
+  "tooltip_fab_add_rich_text_note": "Добавить текстовую заметку",
+  "@tooltip_fab_add_rich_text_note": {
+    "description": "Floating action button in the notes page to add a new rich text note."
+  },
+  "tooltip_fab_add_checklist_note": "Добавить контрольный список",
+  "@tooltip_fab_add_checklist_note": {
+    "description": "Floating action button in the notes page to add a new checklist note."
+  },
+  "tooltip_fab_add_label": "Добавить новый тег",
+  "@tooltip_fab_add_label": {
+    "description": "Floating action button in the tags page to add a new tag."
+  },
+  "tooltip_fab_empty_bin": "Очистить корзину",
+  "@tooltip_fab_empty_bin": {
+    "description": "Floating action button in the bin to empty it."
+  },
+  "tooltip_fab_toggle_editor_mode_edit": "Переключиться в режим редактирования",
+  "@tooltip_fab_toggle_editor_mode_edit": {
+    "description": "Floating action button in the notes editor to switch to editing mode."
+  },
+  "tooltip_fab_toggle_editor_mode_read": "Переключиться в режим чтения",
+  "@tooltip_fab_toggle_editor_mode_read": {
+    "description": "Floating action button in the notes editor to switch to reading mode."
+  },
+  "tooltip_layout_list": "Список",
+  "@tooltip_layout_list": {
+    "description": "Tooltip for the button to use the list layout in the notes list."
+  },
+  "tooltip_layout_grid": "Сетка",
+  "@tooltip_layout_grid": {
+    "description": "Tooltip for the button to use the grid layout in the notes list."
+  },
+  "tooltip_sort": "Сортировать заметки",
+  "@tooltip_sort": {
+    "description": "Tooltip for the button to open the menu to choose the sorting method of the notes list."
+  },
+  "tooltip_search": "Поиск заметок",
+  "@tooltip_search": {
+    "description": "Tooltip for the button to open the search view to search through the notes."
+  },
+  "tooltip_unselect_all": "Отменить выбор",
+  "@tooltip_unselect_all": {
+    "description": "Tooltip for the button to unselect all the notes while in selection mode in the notes list."
+  },
+  "tooltip_reset": "Сброс",
+  "@tooltip_reset": {
+    "description": "Tooltip for the button to reset the value of a setting to its default value in a settings page."
+  },
+  "dialog_add_link": "Добавить ссылку",
+  "@dialog_add_link": {
+    "description": "Tooltip for the button to validate the dialog to add a link in the note editor."
+  },
+  "dialog_archive": "Архивирование",
+  "@dialog_archive": {
+    "description": "Title of the the dialog to archive one or multiple notes (moving them to the archives), and text for the confirmation button."
+  },
+  "dialog_archive_body": "Вы действительно хотите восстановить {count} {count, plural, one{заметку} few{заметки} other{заметок}}?",
+  "@dialog_archive_body": {
+    "description": "Text for the dialog to confirm the archival of one or multiple notes.",
+    "placeholders": {
+      "count": {
+        "description": "Number of notes to archive.",
+        "type": "int"
+      }
+    }
+  },
+  "dialog_unarchive": "Разархивировать",
+  "@dialog_unarchive": {
+    "description": "Title of the the dialog to unarchive one or multiple notes, and text for the confirmation button."
+  },
+  "dialog_unarchive_body": "Вы действительно хотите разархивировать  {count} {count, plural, one{заметку} other{заметки}}?",
+  "@dialog_unarchive_body": {
+    "description": "Text for the dialog to confirm the unarchival of one or multiple notes.",
+    "placeholders": {
+      "count": {
+        "description": "Number of notes to unarchive.",
+        "type": "int"
+      }
+    }
+  },
+  "dialog_delete": "Удалить",
+  "@dialog_delete": {
+    "description": "Title of the the dialog to delete one or multiple notes (moving them to the bin), and text for the confirmation button."
+  },
+  "dialog_delete_body": "Вы действительно хотите удалить {count} {count, plural, one{заметку} few{заметки} other{заметок}}? Вы сможете восстановить {count, plural, one{ее} other{их}} из корзины.",
+  "@dialog_delete_body": {
+    "description": "Text for the dialog to confirm the deletion of one or multiple notes.",
+    "placeholders": {
+      "count": {
+        "description": "Number of notes to delete.",
+        "type": "int"
+      }
+    }
+  },
+  "dialog_permanently_delete": "Удалить",
+  "@dialog_permanently_delete": {
+    "description": "Title of the the dialog to permanently delete one or multiple notes, and text for the confirmation button."
+  },
+  "dialog_permanently_delete_body": "Вы действительно хотите удалить навсегда {count} {count, plural, one{заметку} few{заметки} other{заметок}}? Вы не сможете восстановить {count, plural, one{ее} other{их}}.",
+  "@dialog_permanently_delete_body": {
+    "description": "Text for the dialog to confirm the permanent deletion of one or multiple notes.",
+    "placeholders": {
+      "count": {
+        "description": "Number of notes to delete.",
+        "type": "int"
+      }
+    }
+  },
+  "dialog_restore": "Восстановить",
+  "@dialog_restore": {
+    "description": "Title of the the dialog to restore one or multiple notes from the bin, and text for the confirmation button."
+  },
+  "dialog_restore_body": "Вы действительно хотите восстановить {count} {count, plural, one{заметку} few{заметки} other{заметок}}?",
+  "@dialog_restore_body": {
+    "description": "Text for the dialog to confirm restoring one or multiple notes from the bin.",
+    "placeholders": {
+      "count": {
+        "description": "Number of notes to delete.",
+        "type": "int"
+      }
+    }
+  },
+  "dialog_empty_bin": "Очистить корзину",
+  "@dialog_empty_bin": {
+    "description": "Title of the the dialog to empty the bin, and text for the confirmation button."
+  },
+  "dialog_empty_bin_body": "Вы действительно хотите отчистить корзину? Все заметки будут безвозвратно удалены.",
+  "@dialog_empty_bin_body": {
+    "description": "Text for the dialog to confirm emptying the bin."
+  },
+  "dialog_delete_label": "Удалить",
+  "@dialog_delete_label": {
+    "description": "Title of the the dialog to delete one or multiple tags, and text for the confirmation button."
+  },
+  "dialog_delete_label_body": "Вы действительно хотите удалить {count} {count, plural, one{тег} few{тега} other{тегов}}? {count, plural, one{Он будет удален} other{Они будут удалены}} из заметок, в которые вы добавили {count, plural, one{его} other{их}}.",
+  "@dialog_delete_label_body": {
+    "description": "Text for the dialog to confirm the deletion of one or multiple notes.",
+    "placeholders": {
+      "count": {
+        "description": "Number of notes to delete.",
+        "type": "int"
+      }
+    }
+  },
+  "dialog_export_encryption_switch": "Зашифровать экспорт в формате JSON",
+  "@dialog_export_encryption_switch": {
+    "description": "Text for the switch to toggle the encryption of the export in the dialog to manually or automatically exporting the notes as JSON."
+  },
+  "dialog_export_encryption_description": "Заметки будут зашифрованы паролем. Пароль должен быть сгенерирован случайным образом, длиной в 32 символа (должен содержать минимум 1 строчную букву, 1 заглавную букву, 1 цифру и 1 специальный символ) и храниться в надежном месте.",
+  "@dialog_export_encryption_description": {
+    "description": "Description for the encryption feature when the switch to toggle the encryption of the export is enabled."
+  },
+  "dialog_export_encryption_secondary_description_auto": "Этот пароль будет использован для всех автоматических экспортов заметок.",
+  "@dialog_export_encryption_secondary_description_auto": {
+    "description": "Secondary description for the encryption feature in the case of an automatic export."
+  },
+  "dialog_export_encryption_secondary_description_manual": "Этот пароль будет использоваться только для экспорта текущих заметок.",
+  "@dialog_export_encryption_secondary_description_manual": {
+    "description": "Secondary description for the encryption feature in the case of a manual export."
+  },
+  "dialog_export_encryption_password_invalid": "Неверно",
+  "@dialog_export_encryption_password_invalid": {
+    "description": "Error message displayed under the text field for the encryption password if it does not meet the strength requirements."
+  },
+  "dialog_import_encryption_password_description": "Данные зашифрованы. Чтобы импортировать данные, нужно ввести пароль.",
+  "@dialog_import_encryption_password_description": {
+    "description": "Description in the import dialog when an import is encrypted and the password is needed."
+  },
+  "dialog_import_encryption_password_error": "не удалось расшифровать данные. Убедитесь, что вы ввели правильный пароль.",
+  "@dialog_import_encryption_password_error": {
+    "description": "Error when the decryption of an encrypted import failed."
+  },
+  "dialog_label_add": "Добавить новый тег",
+  "@dialog_label_add": {
+    "description": "Title of the dialog to add a tag."
+  },
+  "dialog_label_edit": "Редактировать тег",
+  "@dialog_label_edit": {
+    "description": "Title of the dialog to edit a tag."
+  },
+  "dialog_label_name_cannot_be_empty": "Название тега не может быть пустым.",
+  "@dialog_label_name_cannot_be_empty": {
+    "description": "Error message shown when relevant on the text field of the name of the tag."
+  },
+  "dialog_label_name_already_used": "Это название тега уже используется.",
+  "@dialog_label_name_already_used": {
+    "description": "Error message shown when relevant on the text field of the name of the tag."
+  },
+  "button_sort_creation_date": "По дате создания",
+  "@button_sort_creation_date": {
+    "description": "Text of the button to sort the notes list by their creation date."
+  },
+  "button_sort_edition_date": "По дате редактирования",
+  "@button_sort_edition_date": {
+    "description": "Text of the button to sort the notes list by their last edition date."
+  },
+  "placeholder_notes": "Нет заметок",
+  "@placeholder_notes": {
+    "description": "Placeholder on the notes page when there are no notes."
+  },
+  "placeholder_labels": "Тегов нет",
+  "@placeholder_labels": {
+    "description": "Placeholder on the tags page when there are no tags."
+  },
+  "placeholder_archives": "Нет архивных заметок",
+  "@placeholder_archives": {
+    "description": "Placeholder on the archives notes page when there are no archived notes."
+  },
+  "placeholder_bin": "Нет удаленных заметок",
+  "@placeholder_bin": {
+    "description": "Placeholder on the bin page when there are no deleted notes."
+  },
+  "action_disabled": "Отключено",
+  "@action_disabled": {
+    "description": "Swipe action that is disabled in the settings."
+  },
+  "action_toggle_pin": "Закрепить/Открепить",
+  "@action_toggle_pin": {
+    "description": "Menu action to toggle whether the notes are pinned."
+  },
+  "action_pin_unpin": "Закрепить / Открепить",
+  "@action_pin_unpin": {
+    "description": "Swipe action to pin or unpin a note."
+  },
+  "action_pin": "Закрепить",
+  "@action_pin": {
+    "description": "Swipe or menu action to pin a note."
+  },
+  "action_unpin": "Открепить",
+  "@action_unpin": {
+    "description": "Swipe or menu action to unpin a note."
+  },
+  "action_toggle_lock": "Переключить блокировку",
+  "@action_toggle_lock": {
+    "description": "Menu action to toggle whether the notes are locked."
+  },
+  "action_lock_unlock": "Блокировать / Разблокировать",
+  "@action_lock_unlock": {
+    "description": "Swipe action to lock or unlock a note."
+  },
+  "action_lock": "Блокировать",
+  "@action_lock": {
+    "description": "Swipe or menu action to lock a note."
+  },
+  "action_unlock": "Разблокировать",
+  "@action_unlock": {
+    "description": "Swipe or menu action to unlock a note."
+  },
+  "action_share": "Поделиться",
+  "@action_share": {
+    "description": "Swipe or menu action to share a note."
+  },
+  "action_share_subject": "{count} {count, plural, one{заметка} few{заметки} other{заметок}} shared из Material Notes",
+  "@action_share_subject": {
+    "description": "Subject of the text that is shared when multiple notes are shared at the same time.",
+    "placeholders": {
+      "count": {
+        "description": "Number of notes being shared.",
+        "type": "int"
+      }
+    }
+  },
+  "action_archive": "Архивировать",
+  "@action_archive": {
+    "description": "Swipe or menu action to archive a note (moving it to the archives)."
+  },
+  "action_unarchive": "Разархивировать",
+  "@action_unarchive": {
+    "description": "Swipe or menu action to unarchive a note."
+  },
+  "action_delete": "Удалить",
+  "@action_delete": {
+    "description": "Swipe or menu action to delete a note (moving it to the bin)."
+  },
+  "action_restore": "Восстановить",
+  "@action_restore": {
+    "description": "Swipe or menu action to restore a note from the bin."
+  },
+  "action_delete_permanently": "Удалить навсегда",
+  "@action_delete_permanently": {
+    "description": "Swipe or menu action to permanently delete a note."
+  },
+  "action_about": "О заметке",
+  "@action_about": {
+    "description": "Swipe or menu action to show information about a note."
+  },
+  "about_last_edited": "Изменено",
+  "@about_last_edited": {
+    "description": "Date when the note was edited for the last time."
+  },
+  "about_type": "Тип",
+  "@about_type": {
+    "description": "Type of the note."
+  },
+  "about_created": "Создано",
+  "@about_created": {
+    "description": "Date when the note was created."
+  },
+  "about_labels": "Количество тегов",
+  "@about_labels": {
+    "description": "Number of tags of the note."
+  },
+  "about_words": "Количество слов",
+  "@about_words": {
+    "description": "Number of words in the content of the note."
+  },
+  "about_characters": "Количество символов",
+  "@about_characters": {
+    "description": "Number of characters in the content of the note."
+  },
+  "about_time_at": "в",
+  "@about_time_at": {
+    "description": "Preposition shown between the date and the time in the about dialog (example: 'January 5, 2024 at 5:15 PM')."
+  },
+  "menu_action_select_labels": "Теги",
+  "@menu_action_select_labels": {
+    "description": "Menu action to select the tags of a note."
+  },
+  "menu_action_add_labels": "Добавить теги",
+  "@menu_action_add_labels": {
+    "description": "Menu action to add tags to multiple notes."
+  },
+  "action_labels_toggle_visibile": "Переключить видимость",
+  "@action_labels_toggle_visibile": {
+    "description": "Tooltip for the button to toggle whether the selected tags are visible."
+  },
+  "action_labels_show_hide": "Показать / Скрыть",
+  "@action_labels_show_hide": {
+    "description": "Swipe action to show or hide a tag."
+  },
+  "action_labels_show": "Показать",
+  "@action_labels_show": {
+    "description": "Menu or swipe action to make tag visible."
+  },
+  "action_labels_hide": "Скрыть",
+  "@action_labels_hide": {
+    "description": "Menu or swipe action to hide a tag."
+  },
+  "action_labels_toggle_pins": "Закрепить/Открепить",
+  "@action_labels_toggle_pins": {
+    "description": "Menu action to toggle whether the selected tags are pinned."
+  },
+  "action_labels_pin_unpin": "Закрепить / Открепить",
+  "@action_labels_pin_unpin": {
+    "description": "Swipe action to pin or unpin a tag."
+  },
+  "action_labels_pin": "Закрепить",
+  "@action_labels_pin": {
+    "description": "Menu or swipe action to pin a tag."
+  },
+  "action_labels_unpin": "Открепить",
+  "@action_labels_unpin": {
+    "description": "Menu or swipe action to unpin a tag."
+  },
+  "action_labels_toggle_lock": "Переключить блокировку",
+  "@action_labels_toggle_lock": {
+    "description": "Tooltip for the button to toggle whether the selected tags are locked."
+  },
+  "action_labels_lock_unlock": "Блокировать / Разблокировать",
+  "@action_labels_lock_unlock": {
+    "description": "Swipe action to lock or unlock a tag."
+  },
+  "action_labels_lock": "Блокировать",
+  "@action_labels_lock": {
+    "description": "Menu or swipe action to lock a tag."
+  },
+  "action_labels_unlock": "Разблокировать",
+  "@action_labels_unlock": {
+    "description": "Menu or swipe action to unlock a tag."
+  },
+  "action_labels_edit": "Редактировать",
+  "@action_labels_edit": {
+    "description": "Menu or swipe action to edit a tag."
+  },
+  "action_labels_delete": "Удалить",
+  "@action_labels_delete": {
+    "description": "Menu or swipe action to delete a tag."
+  },
+  "filter_labels_all": "Все",
+  "@filter_labels_all": {
+    "description": "Filter chip in the tags page to all tags."
+  },
+  "filter_labels_visible": "Видимые",
+  "@filter_labels_visible": {
+    "description": "Filter chip in the tags page to show only the visible tags."
+  },
+  "filter_labels_hidden": "Скрытые",
+  "@filter_labels_hidden": {
+    "description": "Filter chip in the tags page to show only the hidden tags."
+  },
+  "filter_labels_pinned": "Закреплённые",
+  "@filter_labels_pinned": {
+    "description": "Filter chip in the tags page to show only the pinned tags."
+  },
+  "filter_labels_locked": "Заблокирован",
+  "@filter_labels_locked": {
+    "description": "Filter chip in the tags page to show only the locked tags."
+  },
+  "snack_bar_authentication_failed": "Аутентификация не удалась, пожалуйста попробуйте сново.",
+  "@snack_bar_authentication_failed": {
+    "description": "Snack bar informing that the authentication on the lock screen has failed."
+  },
+  "snack_bar_archived": "Поздравляю, {count, plural, one{одна заметка} other{ несколько заметок}} становится архивом",
+  "@snack_bar_archived": {
+    "description": "Snack bar informing that the note was archived.",
+    "placeholders": {
+      "count": {
+        "description": "Number of notes that were archived.",
+        "type": "int"
+      }
+    }
+  },
+  "snack_bar_unarchived": "Поздравляю, {count, plural, one{одна заметка} other{несколько заметок}} разархивируется",
+  "@snack_bar_unarchived": {
+    "description": "Snack bar informing that the note was unarchived.",
+    "placeholders": {
+      "count": {
+        "description": "Number of notes that were unarchived.",
+        "type": "int"
+      }
+    }
+  },
+  "snack_bar_deleted": "Поздравляю, {count, plural, one{заметки} other{ заметки}}  удалены",
+  "@snack_bar_deleted": {
+    "description": "Snack bar informing that the note was deleted.",
+    "placeholders": {
+      "count": {
+        "description": "Number of notes that were deleted.",
+        "type": "int"
+      }
+    }
+  },
+  "snack_bar_restored": "Поздравляю, {count, plural, one{заметки} other{ заметки}}  востановленны",
+  "@snack_bar_restored": {
+    "description": "Snack bar informing that the note was restored.",
+    "placeholders": {
+      "count": {
+        "description": "Number of notes that were restored.",
+        "type": "int"
+      }
+    }
+  },
+  "snack_bar_copied": "Содержимое {count, plural, one{заметки} other{заметок}} скопировалось в буфер обмена.",
+  "@snack_bar_copied": {
+    "description": "Snack bar informing that the content of the note was copied to clipboard.",
+    "placeholders": {
+      "count": {
+        "description": "Number of notes to copy.",
+        "type": "int"
+      }
+    }
+  },
+  "snack_bar_import_success": "Резервная копия была успешно импортирована.",
+  "@snack_bar_import_success": {
+    "description": "Snack bar informing that the backup was successfully imported."
+  },
+  "snack_bar_export_success": "Резервная копия была успешно экспортирована.",
+  "@snack_bar_export_success": {
+    "description": "Snack bar informing that the backup was successfully manually exported."
+  },
+  "snack_bar_logs_copied": "Логи скопированы в буфер обмена.",
+  "@snack_bar_logs_copied": {
+    "description": "Snack bar message shown when the logs where copied to the clipboard from the error widget."
+  },
+  "snack_bar_logs_exported": "Логи были успешно экспортированы.",
+  "@snack_bar_logs_exported": {
+    "description": "Snack bar message shown when the logs where successfully exported in a text file from the error widget."
+  },
+  "snack_bar_no_labels": "Нет тегов.",
+  "@snack_bar_no_labels": {
+    "description": "Snack bar message shown when the user tries to select the tags for a note, but there are no tags available."
+  },
+  "quick_action_add_plain_text_note_title": "Добавить простую текстовую заметку",
+  "@quick_action_add_plain_text_note_title": {
+    "description": "Title of the home screen action to add a new plain text note."
+  },
+  "quick_action_add_markdown_note_title": "Добавить Markdown заметку",
+  "@quick_action_add_markdown_note_title": {
+    "description": "Title of the home screen action to add a new markdown note."
+  },
+  "quick_action_add_rich_text_note_title": "Добавьте заметку с расширенными редактированием",
+  "@quick_action_add_rich_text_note_title": {
+    "description": "Title of the home screen action to add a new rich text note."
+  },
+  "quick_action_add_checklist_note_title": "Добавить контрольный список",
+  "@quick_action_add_checklist_note_title": {
+    "description": "Title of the home screen action to add a new checklist note."
+  },
+  "welcome_note_title": "Добро пожаловать в Material Notes!",
+  "@welcome_note_title": {
+    "description": "Title of the welcome note automatically created on the first run of the application."
+  },
+  "welcome_note_content": "Простые, локальные заметки в стиле Material Design",
+  "@welcome_note_content": {
+    "description": "Content of the welcome note automatically created on the first run of the application."
+  },
+  "font_system_default": "Системный по умолчанию",
+  "@font_system_default": {
+    "description": "Name of the font settings that uses the default font of the system."
+  },
+  "note_type_plain_text": "Plain text",
+  "@note_type_plain_text": {
+    "description": "Note with plain text."
+  },
+  "note_type_markdown": "Markdown",
+  "@note_type_markdown": {
+    "description": "Note with markdown text."
+  },
+  "note_type_rich_text": "Rich text",
+  "@note_type_rich_text": {
+    "description": "Note with rich text."
+  },
+  "note_type_checklist": "Контрольный список",
+  "@note_type_checklist": {
+    "description": "Note with a checklist."
+  },
+  "lock_page_reason_app": "Разблокировать Material Notes",
+  "@lock_page_reason_app": {
+    "description": "Reason for the lock screen of the application to request a system authentication."
+  },
+  "lock_page_reason_note": "Разблокировать эту заметку",
+  "@lock_page_reason_note": {
+    "description": "Reason for the lock screen of a locked note to request a system authentication."
+  },
+  "lock_page_reason_action": "Авторизовать это действие",
+  "@lock_page_reason_action": {
+    "description": "Reason for the lock screen for a secure action to request a system authentication."
+  },
+  "lock_page_description_app": "Приложение заблокировано.",
+  "@lock_page_description_app": {
+    "description": "Description shown in the lock page for the application."
+  },
+  "lock_page_description_note": "Эта заметка заблокирована.",
+  "@lock_page_description_note": {
+    "description": "Description shown in the lock page for a locked note."
+  },
+  "lock_page_unlock": "Разблокировать",
+  "@lock_page_unlock": {
+    "description": "Button to unlock the lock page by requesting a system authentication."
+  },
+  "rich_text_editor_toolbar_dialog_color_title_foreground": "Основной цвет",
+  "@rich_text_editor_toolbar_dialog_color_title_foreground": {
+    "description": "Title of the dialog to choose the foreground color of the text in the rich text editor."
+  },
+  "rich_text_editor_toolbar_dialog_color_title_background": "Цвет фона",
+  "@rich_text_editor_toolbar_dialog_color_title_background": {
+    "description": "Title of the dialog to choose the background color of the text in the rich text editor."
+  },
+  "rich_text_editor_toolbar_dialog_color_description": "Основной цвет",
+  "@rich_text_editor_toolbar_dialog_color_description": {
+    "description": "Description of the dialog to choose the foreground/background color of the text."
+  },
+  "toolbar_style_one_row_simple_title": "Один ряд (упрощенный)",
+  "@toolbar_style_one_row_simple_title": {
+    "description": "Title for the style of the rich text editor toolbar with one row and only simple formatting options."
+  },
+  "toolbar_style_one_row_simple_description": "Только простые параметры редактирования в одном ряду",
+  "@toolbar_style_one_row_simple_description": {
+    "description": "Description for the style of the rich text editor toolbar with one row and only simple formatting options."
+  },
+  "toolbar_style_one_row_all_title": "Одна ряд (весь функционал)",
+  "@toolbar_style_one_row_all_title": {
+    "description": "Title for the style of the rich text editor toolbar with one row and all formatting options."
+  },
+  "toolbar_style_one_row_all_description": "Все параметры редактирования в одной ряду",
+  "@toolbar_style_one_row_all_description": {
+    "description": "Description for the style of the rich text editor toolbar with one row and all formatting options."
+  },
+  "toolbar_style_two_rows_stacked_title": "Два ряда (оба ряда видны сразу)",
+  "@toolbar_style_two_rows_stacked_title": {
+    "description": "Title for the style of the rich text editor toolbar with two stacked rows."
+  },
+  "toolbar_style_two_rows_stacked_description": "Все параметры редактирования для двух расположенных друг над другом рядах",
+  "@toolbar_style_two_rows_stacked_description": {
+    "description": "Description for the style of the rich text editor toolbar with two stacked rows."
+  },
+  "toolbar_style_two_rows_toggleable_title": "Два ряда (с возможностью переключения на другой ряд)",
+  "@toolbar_style_two_rows_toggleable_title": {
+    "description": "Title for the style of the rich text editor toolbar with two toggleable rows."
+  },
+  "toolbar_style_two_rows_toggleable_description": "Все параметры редактирования в двух переключаемых рядах",
+  "@toolbar_style_two_rows_toggleable_description": {
+    "description": "Description for the style of the rich text editor toolbar with two toggleable rows."
+  },
+  "settings_confirm_before_exiting_title": "Подтвердить перед выходом",
+  "@settings_confirm_before_exiting_title": {
+    "description": "Title of the setting tile for whether a confirmation is required before exiting the application."
+  },
+  "settings_confirm_before_exiting_description": "Спрашивать подтверждение перед выходом из приложения",
+  "@settings_confirm_before_exiting_description": {
+    "description": "Description of the setting tile for whether a confirmation is required before exiting the application."
+  },
+  "snack_bar_confirm_exiting": "Нажмите Назад еще раз, чтобы выйти из приложения.",
+  "@snack_bar_confirm_exiting": {
+    "description": "Snack bar asking the user to confirm exiting the application by pressing back again."
+  }
+}
