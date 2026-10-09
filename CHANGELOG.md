@@ -20,7 +20,7 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 ### Changed
 
 - The `+` buttons of the side menu create rich text notes
-- The label color dialog opens on the primary palette instead of the color wheel
+- The label color dialog now uses only the primary color palette (color wheel removed)
 - Performance improvements for long notes
 - Release builds are published to GitHub Releases with their changelog
 

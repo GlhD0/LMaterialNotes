@@ -83,14 +83,13 @@ class _AddLabelDialogState extends ConsumerState<LabelDialog> {
       height: Sizes.colorIndicator.size,
       width: Sizes.colorIndicator.size,
       borderRadius: Sizes.colorIndicator.size,
-      pickerType: ColorPickerType.primary,
       pickersEnabled: {
         ColorPickerType.both: false,
         ColorPickerType.primary: true,
         ColorPickerType.accent: false,
         ColorPickerType.bw: false,
         ColorPickerType.custom: false,
-        ColorPickerType.wheel: true,
+        ColorPickerType.wheel: false,
       },
       onColorChanged: (color) {
         pickedColor = color;
