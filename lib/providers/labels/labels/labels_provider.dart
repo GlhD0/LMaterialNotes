@@ -14,7 +14,7 @@ import '../labels_navigation/labels_navigation_provider.dart';
 part 'labels_provider.g.dart';
 
 /// Provider for the labels.
-@riverpod
+@Riverpod(keepAlive: true)
 class Labels extends _$Labels {
   final _labelsService = LabelsService();
 
