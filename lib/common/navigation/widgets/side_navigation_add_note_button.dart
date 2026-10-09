@@ -6,9 +6,8 @@ import '../../../models/note/types/note_type.dart';
 import '../../actions/notes/add.dart';
 import '../../extensions/build_context_extension.dart';
 
-/// Button of the side navigation to quickly create a note.
+/// Button of the side navigation to quickly create a rich text note.
 ///
-/// The note is created with the first note type available in the settings.
 /// If a [label] is provided, the created note is directly categorized with it.
 class SideNavigationAddNoteButton extends ConsumerWidget {
   /// Default constructor.
@@ -24,7 +23,7 @@ class SideNavigationAddNoteButton extends ConsumerWidget {
     // Close the navigation drawer
     Navigator.pop(context);
 
-    addNote(context, ref, noteType: NoteType.available.first, label: label);
+    addNote(context, ref, noteType: NoteType.richText, label: label);
   }
 
   @override

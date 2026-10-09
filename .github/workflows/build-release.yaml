@@ -9,6 +9,9 @@ permissions:
 jobs:
   android:
     runs-on: ubuntu-latest
+    env:
+      # Increment with every personal update; it tags and titles the release.
+      PERSONAL_VERSION: '1.2'
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -41,6 +44,14 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          VERSION=$(grep '^version:' pubspec.yaml | cut -d' ' -f2)
-          gh release create "v$VERSION" --title "Local Material Notes $VERSION" --notes "Release build ${{ github.run_number }}" --latest || true
+          BASE=$(grep '^version:' pubspec.yaml | cut -d' ' -f2)
+          VERSION="${BASE}-personal_v${PERSONAL_VERSION}"
+          CHANGELOG=$(awk -v v="$BASE" 'index($0, "## " v) == 1 {flag=1} (flag && $0 ~ /^## / && index($0, "## " v) != 1) {flag=0} flag' CHANGELOG.md)
+          if [ -z "$CHANGELOG" ]; then CHANGELOG="Release build ${{ github.run_number }}"; fi
+          NOTES="${CHANGELOG}
+
+          ---
+          Changelog completo: https://github.com/${{ github.repository }}/blob/main/CHANGELOG.md"
+          gh release create "v$VERSION" --title "Local Material Notes $VERSION" --notes "$NOTES" --latest || true
           gh release upload "v$VERSION" build/app/outputs/flutter-apk/app-*-release.apk --clobber
+          gh release edit "v$VERSION" --notes "$NOTES"

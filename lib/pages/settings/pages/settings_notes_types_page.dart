@@ -53,7 +53,7 @@ class _SettingsNotesTypesPageState extends ConsumerState<SettingsNotesTypesPage>
 
   @override
   Widget build(BuildContext context) {
-    final notesTypes = NoteType.values.map((type) {
+    final notesTypes = NoteType.values.where((type) => type != NoteType.plainText).map((type) {
       return (value: type, title: type.title(context), subtitle: null);
     }).toList();
     final availableNotesTypes = NoteType.available;

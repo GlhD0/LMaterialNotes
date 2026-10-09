@@ -5,6 +5,29 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project
 adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 2.2.2+38 - 2026-10-09
+
+### Added
+
+- Discreet `+` buttons in the side menu to create notes (optionally with a label)
+- The side menu opens automatically on every launch
+- Releases are titled and tagged with a personal version suffix (`-personal_vX`)
+
+### Fixed
+
+- Newly created labels now appear instantly in the side menu
+
+### Changed
+
+- The `+` buttons of the side menu create rich text notes
+- The label color dialog opens on the primary palette instead of the color wheel
+- Performance improvements for long notes
+- Release builds are published to GitHub Releases with their changelog
+
+### Removed
+
+- Plain text as an option for new notes (existing plain text notes keep working)
+
 ## 2.2.2 - 2026-07-14
 
 ### Fixed

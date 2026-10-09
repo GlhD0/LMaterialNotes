@@ -37,13 +37,15 @@ enum NoteType {
   }
 
   /// The types that can be used when creating a new note from a shortcut.
-  static List<NoteType> get share => [plainText, markdown, richText];
+  static List<NoteType> get share => [markdown, richText];
 
   /// The list of types available when creating a new note from the notes list.
+  ///
+  /// Plain text is legacy: existing plain text notes keep working, but the type is no longer offered.
   static List<NoteType> get available {
     final availableTypesPreference = PreferenceKey.availableNotesTypes.preferenceOrDefault;
 
-    return availableTypesPreference.map((type) {
+    return availableTypesPreference.where((type) => type != plainText.name).map((type) {
       return values.byName(type);
     }).toList();
   }
@@ -57,7 +59,7 @@ enum NoteType {
   static NoteType get defaultShare {
     final defaultShortcutType = PreferenceKey.defaultShareNoteType.preferenceOrDefault;
 
-    return values.byName(defaultShortcutType);
+    return defaultShortcutType == plainText.name ? richText : values.byName(defaultShortcutType);
   }
 
   /// Returns the [types] as a list of [String] that can be saved to the preferences.

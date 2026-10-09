@@ -13,8 +13,8 @@ enum PreferenceKey<T extends Object> {
   editorFont<String>('systemDefault'),
 
   // Notes types
-  availableNotesTypes<List<String>>(['plainText', 'richText', 'markdown', 'checklist']),
-  defaultShareNoteType<String>('plainText'),
+  availableNotesTypes<List<String>>(['richText', 'markdown', 'checklist']),
+  defaultShareNoteType<String>('richText'),
 
   // Rich text notes
   useParagraphsSpacing<bool>(true),
