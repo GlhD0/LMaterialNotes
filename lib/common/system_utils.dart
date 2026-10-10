@@ -53,11 +53,18 @@ class SystemUtils {
     isSystemAuthenticationAvailable = await LocalAuthentication().isDeviceSupported();
   }
 
-  /// version of the application.
+  /// The version of the application (e.g. `2.2.2`).
   String get appVersion => _packageInfo.version;
 
-  /// version of the application.
+  /// The build number of the application (e.g. `512`).
   int get buildNumber => int.parse(_packageInfo.buildNumber);
+
+  /// The personal version suffix of this fork (e.g. `1.4`), empty for upstream builds.
+  String get personalVersion => const String.fromEnvironment('PERSONAL_VERSION');
+
+  /// The full version label of the application (e.g. `v2.2.2 (512) 1.4`).
+  String get versionLabel =>
+      personalVersion.isEmpty ? 'v$appVersion ($buildNumber)' : 'v$appVersion ($buildNumber) $personalVersion';
 
   /// Android version of the device.
   int get androidVersion => _androidDeviceInfo.version.sdkInt;

@@ -10,9 +10,11 @@ jobs:
   android:
     runs-on: ubuntu-latest
     env:
-      # Increment with every personal update; it tags and titles the release
-      # and is embedded in the app (shown in Settings → About).
-      PERSONAL_VERSION: '1.3'
+      # Increment with every personal update; it tags and titles the release,
+      # is embedded in the app (shown in Settings → About) and raises the APK
+      # build number (base 38 + MAJOR*10 + MINOR, so 1.4 → 52 → APK codes 52x).
+      # Format must be X.Y.
+      PERSONAL_VERSION: '1.4'
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -39,7 +41,15 @@ jobs:
         run: flutter gen-l10n
 
       - name: Build the release APKs
-        run: flutter build apk --release --split-per-abi --dart-define=PERSONAL_VERSION=${PERSONAL_VERSION}
+        run: |
+          BASE=$(grep '^version:' pubspec.yaml | cut -d' ' -f2)
+          BASE_CODE=${BASE#*+}
+          MAJOR=${PERSONAL_VERSION%%.*}
+          MINOR=${PERSONAL_VERSION##*.}
+          BUILD_NUMBER=$((BASE_CODE + MAJOR * 10 + MINOR))
+          flutter build apk --release --split-per-abi \
+            --build-number=$BUILD_NUMBER \
+            --dart-define=PERSONAL_VERSION=${PERSONAL_VERSION}
 
       - name: Publish the GitHub release
         env:

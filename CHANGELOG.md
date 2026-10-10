@@ -12,7 +12,10 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - Discreet `+` buttons in the side menu to create notes (optionally with a label)
 - The side menu opens automatically on every launch
 - Releases are titled and tagged with a personal version suffix (`-personal_vX`)
-- Settings → About shows the personal version suffix (for example, `v2.2.2 (38) 1.3`)
+- Settings → About shows the personal version suffix (for example, `v2.2.2 (522) 1.4`)
+- The APK build number rises with every personal update (base `38` plus the personal version,
+  so `1.4` produces build numbers `521`–`523`), making every release distinguishable in file
+  managers and installers
 
 ### Fixed
 

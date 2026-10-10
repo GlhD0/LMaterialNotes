@@ -43,12 +43,7 @@ class SettingsAboutPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final appVersion = SystemUtils().appVersion;
-    final appBuildNumber = SystemUtils().buildNumber;
-    const personalVersion = String.fromEnvironment('PERSONAL_VERSION');
-    final versionLabel = personalVersion.isEmpty
-        ? 'v$appVersion ($appBuildNumber)'
-        : 'v$appVersion ($appBuildNumber) $personalVersion';
+    final versionLabel = SystemUtils().versionLabel;
 
     return Scaffold(
       appBar: TopNavigation(appbar: BasicAppBar(title: context.l.navigation_settings_about)),

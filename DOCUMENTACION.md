@@ -75,6 +75,15 @@ keystore propio.
   inicial según el color actual (si pertenece a una paleta Material, abre en Primary; si no,
   abre en Wheel). No se oculta ninguna opción.
 
+### Ronda 1.4 — APK distinguible y versión centralizada (versión actual)
+- **El número interno del APK (versionCode) sube con cada actualización personal.** El workflow
+  deriva `--build-number` con la fórmula `BASE_CODE + MAJOR*10 + MINOR` (base 38; `1.4` → 52),
+  y los splits por ABI producen 521/522/523. Antes el APK quedaba idéntico al original en
+  gestores de archivos e instaladores (siempre 2.2.2/382); ahora cada release personal es
+  distinguible y actualizable sin conflicto.
+- **La etiqueta de versión se construye en un solo lugar:** `SystemUtils.versionLabel`
+  (`v{appVersion} ({buildNumber}) {personalVersion}`), usada por Ajustes → Acerca de.
+
 ---
 
 ## 3. Stack tecnológico
@@ -163,11 +172,13 @@ Ruta → qué hace → qué cambió el fork:
    estándar → el selector abre en la paleta Primary). `pickersEnabled`: `primary: true`,
    `wheel: true`, resto `false`.
 6. `lib/pages/settings/pages/settings_about_page.dart`
-   → "Acerca de". Muestra `'v$appVersion ($appBuildNumber) $personalVersion'`, donde
-   `personalVersion = String.fromEnvironment('PERSONAL_VERSION')` (vacía si no se inyecta;
-   entonces se muestra solo `v2.2.2 (382)`).
-7. `.github/workflows/build-release.yaml` → ver §6.3.
-8. `CHANGELOG.md`, `README.md`, `android/app/build.gradle` (applicationId) → texto/identidad.
+   → "Acerca de". Muestra `SystemUtils().versionLabel` (p. ej. `v2.2.2 (522) 1.4`).
+7. `lib/common/system_utils.dart`
+   → Getters `appVersion`, `buildNumber`, `personalVersion`
+   (`String.fromEnvironment('PERSONAL_VERSION')`, vacía sin inyectar) y `versionLabel`
+   (etiqueta completa; sin sufijo muestra `v2.2.2 (382)`).
+8. `.github/workflows/build-release.yaml` → ver §6.3.
+9. `CHANGELOG.md`, `README.md`, `android/app/build.gradle` (applicationId) → texto/identidad.
 
 ---
 
@@ -206,15 +217,15 @@ no hay secretos extra para publicar.
 ### 6.4 Versionado y números de compilación
 - `pubspec.yaml` `version: 2.2.2+38` → `versionName 2.2.2`, `versionCode 38`.
 - `android/app/build.gradle` aplica splits por ABI con
-  `versionCodeOverride = versionCode * 10 + índiceABI` → los APKs reales tienen versionCode
-  381, 382, 383… (por eso "Acerca de" muestra p. ej. `(382)` en arm64-v8a).
-- **Cada release personal** se distingue por: sufijo en el título/tag del Release
-  (`-personal_v1.3`), sufijo visible en Acerca de (`… (382) 1.3`) y changelog.
+  `versionCodeOverride = versionCode * 10 + índiceABI`.
+- **El workflow build-release calcula el versionCode** con
+  `--build-number = BASE_CODE + MAJOR*10 + MINOR` (hoy base 38): `1.4` → 52 → APKs 521/522/523.
+  Así cada release personal tiene número interno propio y distinto del original (382).
+- **Cada release personal** se distingue por: título/tag (`-personal_vX`), número interno del
+  APK, sufijo en Acerca de y changelog.
 - **Para cada actualización personal:** subir `PERSONAL_VERSION` en
-  `build-release.yaml` (`'1.3'` → `'1.4'`; `'2.0'` para cambios grandes).
-- **Para subir el número de compilación real** (versionCode interno) hay que editar
-  `pubspec.yaml` (`+38` → `+39`) y `CHANGELOG.md`. No es necesario para actualizar la app en el
-  teléfono: Android permite actualizar sobre la misma firma aunque el versionCode no cambie.
+  `build-release.yaml` (`'1.4'` → `'1.5'`; `'2.0'` para cambios grandes). No hay que tocar
+  `pubspec.yaml`: el número interno se deriva solo. Formato obligatorio `X.Y`.
 
 ### 6.5 Secretos del repositorio (Settings → Secrets and variables → Actions)
 | Secreto | Contenido |
@@ -297,4 +308,4 @@ clásico usado para `git push` necesita los scopes **`repo` y `workflow`**.
 
 ---
 
-*Documento generado el 2026-10-09 para la versión personal 1.3 (base 2.2.2+38).*
+*Documento generado el 2026-10-09 para la versión personal 1.4 (base 2.2.2+38).*
