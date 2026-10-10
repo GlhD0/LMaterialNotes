@@ -10,8 +10,9 @@ jobs:
   android:
     runs-on: ubuntu-latest
     env:
-      # Increment with every personal update; it tags and titles the release.
-      PERSONAL_VERSION: '1.2'
+      # Increment with every personal update; it tags and titles the release
+      # and is embedded in the app (shown in Settings → About).
+      PERSONAL_VERSION: '1.3'
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -38,7 +39,7 @@ jobs:
         run: flutter gen-l10n
 
       - name: Build the release APKs
-        run: flutter build apk --release --split-per-abi
+        run: flutter build apk --release --split-per-abi --dart-define=PERSONAL_VERSION=${PERSONAL_VERSION}
 
       - name: Publish the GitHub release
         env:

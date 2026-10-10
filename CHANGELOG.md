@@ -12,6 +12,7 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - Discreet `+` buttons in the side menu to create notes (optionally with a label)
 - The side menu opens automatically on every launch
 - Releases are titled and tagged with a personal version suffix (`-personal_vX`)
+- Settings → About shows the personal version suffix (for example, `v2.2.2 (38) 1.3`)
 
 ### Fixed
 
@@ -20,7 +21,8 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 ### Changed
 
 - The `+` buttons of the side menu create rich text notes
-- The label color dialog now uses only the primary color palette (color wheel removed)
+- New labels get a standard Material color, so the color dialog opens on the Primary palette
+  (the color wheel remains available)
 - Performance improvements for long notes
 - Release builds are published to GitHub Releases with their changelog
 

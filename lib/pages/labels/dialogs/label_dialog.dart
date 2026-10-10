@@ -56,7 +56,8 @@ class _AddLabelDialogState extends ConsumerState<LabelDialog> {
   didChangeDependencies() {
     super.didChangeDependencies();
 
-    color = widget.label?.color ?? Theme.of(context).colorScheme.tertiaryContainer;
+    // A standard Material color makes the picker open on the Primary palette.
+    color = widget.label?.color ?? Colors.blue;
   }
 
   String? nameValidator(String? name) {
@@ -89,7 +90,7 @@ class _AddLabelDialogState extends ConsumerState<LabelDialog> {
         ColorPickerType.accent: false,
         ColorPickerType.bw: false,
         ColorPickerType.custom: false,
-        ColorPickerType.wheel: false,
+        ColorPickerType.wheel: true,
       },
       onColorChanged: (color) {
         pickedColor = color;

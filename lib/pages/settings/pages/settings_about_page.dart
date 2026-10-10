@@ -45,6 +45,10 @@ class SettingsAboutPage extends StatelessWidget {
   Widget build(BuildContext context) {
     final appVersion = SystemUtils().appVersion;
     final appBuildNumber = SystemUtils().buildNumber;
+    const personalVersion = String.fromEnvironment('PERSONAL_VERSION');
+    final versionLabel = personalVersion.isEmpty
+        ? 'v$appVersion ($appBuildNumber)'
+        : 'v$appVersion ($appBuildNumber) $personalVersion';
 
     return Scaffold(
       appBar: TopNavigation(appbar: BasicAppBar(title: context.l.navigation_settings_about)),
@@ -58,7 +62,7 @@ class SettingsAboutPage extends StatelessWidget {
                 tiles: [
                   SettingAboutTile(
                     applicationName: context.l.app_name,
-                    applicationVersion: 'v$appVersion ($appBuildNumber)',
+                    applicationVersion: versionLabel,
                     applicationIcon: Image.asset(Asset.icon.path, fit: BoxFit.fitWidth, width: Sizes.appIcon.size),
                     applicationLegalese: context.l.settings_licence_description,
                     dialogChildren: [
